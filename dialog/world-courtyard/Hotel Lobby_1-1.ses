@@ -387,7 +387,7 @@
                                   <Type>door</Type>
                                   <Type>placeable</Type>
                                 </Types>
-                                <Binding flavour="resource">commale001.UTC</Binding>
+                                <Binding flavour="resource">host.UTC</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -501,7 +501,7 @@
                                   <Type>item</Type>
                                   <Type>trigger</Type>
                                 </Types>
-                                <Binding flavour="resource">commale001.UTC</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Voice Chat</Name>
@@ -1276,7 +1276,7 @@
                                 </Types>
                                 <Binding flavour="constant">
                                   <Type>string</Type>
-                                  <Value>ERC-Game-1-2.mod</Value>
+                                  <Value>ERC-Game-0</Value>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
