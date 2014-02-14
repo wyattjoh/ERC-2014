@@ -1,5 +1,5 @@
 <Story>
-  <Title>*Dinner Party</Title>
+  <Title>Dinner Party</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -221,6 +221,50 @@
                     <Enabled>true</Enabled>
                     <Labels/>
                     <Children>
+                      <ScriptIt>
+                        <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>308</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Lock or Unlock</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>lock_modify</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>lock_modify</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>door</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding flavour="resource">plc_basket001.UTP</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
                       <ScriptIt>
                         <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
                         <Visible>true</Visible>
@@ -850,6 +894,94 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
+                        <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>308</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Lock or Unlock</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>lock_modify</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>lock_modify</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>door</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding flavour="resource">chest004.UTP</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>308</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Lock or Unlock</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>lock_modify</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>lock_modify</Type>
+                                  <Value>TRUE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>door</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding flavour="resource">plc_basket001.UTP</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -873,7 +1005,7 @@
                                 <Types>
                                   <Type>enable_disable</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>dialogue line</Name>
@@ -1434,6 +1566,91 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
+                        <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>308</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Lock or Unlock</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>lock_modify</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>lock_modify</Type>
+                                  <Value>TRUE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>door</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Set the &lt;Object&gt; to &lt;Lock or Unlock&gt;ed</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>308</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Lock or Unlock</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>lock_modify</Type>
+                                </Types>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>door</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding flavour="resource">armoire001.UTP</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -1780,7 +1997,7 @@
                                         <Types>
                                           <Type>dialogue_line</Type>
                                         </Types>
-                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[6]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[6]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
                                       </KnowIt>
                                     </Parameters>
                                   </CodeBlockReference>
