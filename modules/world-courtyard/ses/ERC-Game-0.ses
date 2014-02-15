@@ -2621,6 +2621,40 @@
                                                   </CodeBlockReference>
                                                 </CodeBlocks>
                                               </ScriptIt>
+                                              <ScriptIt>
+                                                <Name>Destroy &lt;Target&gt;</Name>
+                                                <Visible>true</Visible>
+                                                <Enabled>true</Enabled>
+                                                <Labels>
+                                                  <Label>NOW</Label>
+                                                </Labels>
+                                                <Children/>
+                                                <CodeBlocks>
+                                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                                    <Name>Destroy &lt;Target&gt;</Name>
+                                                    <Visible>true</Visible>
+                                                    <Enabled>true</Enabled>
+                                                    <Labels/>
+                                                    <TargetId>284</TargetId>
+                                                    <Parameters>
+                                                      <KnowIt>
+                                                        <Name>Target</Name>
+                                                        <Visible>true</Visible>
+                                                        <Enabled>true</Enabled>
+                                                        <Labels/>
+                                                        <Types>
+                                                          <Type>creature</Type>
+                                                          <Type>placeable</Type>
+                                                          <Type>door</Type>
+                                                          <Type>item</Type>
+                                                          <Type>trigger</Type>
+                                                        </Types>
+                                                        <Binding flavour="resource">oldwomandisconne.UTT</Binding>
+                                                      </KnowIt>
+                                                    </Parameters>
+                                                  </CodeBlockReference>
+                                                </CodeBlocks>
+                                              </ScriptIt>
                                               <KnowIt>
                                                 <Name>In front of rock</Name>
                                                 <Visible>true</Visible>
@@ -2835,7 +2869,7 @@
                                     <Types>
                                       <Type>trigger</Type>
                                     </Types>
-                                    <Binding flavour="resource">oldwomandisconne.UTT</Binding>
+                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                   </KnowIt>
                                 </Parameters>
                               </CodeBlockReference>
