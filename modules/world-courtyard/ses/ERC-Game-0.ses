@@ -1,5 +1,5 @@
 <Story>
-  <Title>ERC-Game-0</Title>
+  <Title>*ERC-Game-0</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -1391,6 +1391,50 @@
                                   </CodeBlockReference>
                                 </CodeBlocks>
                               </ScriptIt>
+                              <ScriptIt>
+                                <Name>Create a new &lt;Object&gt; at &lt;Location&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels>
+                                  <Label>NOW</Label>
+                                </Labels>
+                                <Children/>
+                                <CodeBlocks>
+                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                    <Name>Create a new &lt;Object&gt; at &lt;Location&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <TargetId>447</TargetId>
+                                    <Parameters>
+                                      <KnowIt>
+                                        <Name>Object</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>item</Type>
+                                          <Type>creature</Type>
+                                          <Type>placeable</Type>
+                                          <Type>store</Type>
+                                          <Type>waypoint</Type>
+                                        </Types>
+                                        <Binding flavour="resource">solwhite001.UTP</Binding>
+                                      </KnowIt>
+                                      <KnowIt>
+                                        <Name>Location</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>location</Type>
+                                        </Types>
+                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                                      </KnowIt>
+                                    </Parameters>
+                                  </CodeBlockReference>
+                                </CodeBlocks>
+                              </ScriptIt>
                             </Children>
                           </StoryComponentContainer>
                           <StoryComponentContainer>
@@ -1728,6 +1772,40 @@
                                                   <Type>string</Type>
                                                   <Value>Great! I found the lantern, now to take it back to the gardener.</Value>
                                                 </Binding>
+                                              </KnowIt>
+                                            </Parameters>
+                                          </CodeBlockReference>
+                                        </CodeBlocks>
+                                      </ScriptIt>
+                                      <ScriptIt>
+                                        <Name>Destroy &lt;Target&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels>
+                                          <Label>NOW</Label>
+                                        </Labels>
+                                        <Children/>
+                                        <CodeBlocks>
+                                          <CodeBlockReference library="DefaultNWNLibrary">
+                                            <Name>Destroy &lt;Target&gt;</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <TargetId>284</TargetId>
+                                            <Parameters>
+                                              <KnowIt>
+                                                <Name>Target</Name>
+                                                <Visible>true</Visible>
+                                                <Enabled>true</Enabled>
+                                                <Labels/>
+                                                <Types>
+                                                  <Type>creature</Type>
+                                                  <Type>placeable</Type>
+                                                  <Type>door</Type>
+                                                  <Type>item</Type>
+                                                  <Type>trigger</Type>
+                                                </Types>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                               </KnowIt>
                                             </Parameters>
                                           </CodeBlockReference>

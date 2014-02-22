@@ -3415,6 +3415,56 @@
                           </CodeBlockReference>
                         </CodeBlocks>
                       </ScriptIt>
+                      <ScriptIt>
+                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>430</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Enable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>dialogue line</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>dialogue_line</Type>
+                                </Types>
+                                <Binding flavour="resource">kg_convo.DLG#4</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>431</TargetId>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
                     </Children>
                   </StoryComponentContainer>
                   <StoryComponentContainer>
@@ -4098,57 +4148,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">ge_convo.DLG#4</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>TRUE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding flavour="resource">kg_convo.DLG#4</Binding>
+                                <Binding flavour="resource">kg_convo.DLG#1</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -4291,601 +4291,7 @@
                             <Types>
                               <Type>storyPoint</Type>
                             </Types>
-                            <Binding flavour="storyPoint">
-                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
-                            </Binding>
-                          </KnowIt>
-                        </Parameters>
-                      </CodeBlockReference>
-                    </CodeBlocks>
-                  </ScriptIt>
-                </Binding>
-              </KnowIt>
-              <AskIt>
-                <Name>&lt;Question&gt;</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <Children>
-                  <StoryComponentContainer>
-                    <Name>Yes:</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>TRUE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding flavour="resource">kg_convo.DLG#5</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>TRUE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding flavour="resource">ge_convo.DLG#3</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>468</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Story Point</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>storyPoint</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>Text</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>string</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>string</Type>
-                                  <Value>Boy he is stubborn, wonder if Edith has any trinck on how to deal with him.</Value>
-                                </Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                    </Children>
-                  </StoryComponentContainer>
-                  <StoryComponentContainer>
-                    <Name>No:</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children/>
-                  </StoryComponentContainer>
-                </Children>
-                <Condition>
-                  <KnowIt>
-                    <Name>Question</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Types>
-                      <Type>question</Type>
-                    </Types>
-                    <Binding flavour="reference">
-                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/KnowIt"/>
-                    </Binding>
-                  </KnowIt>
-                </Condition>
-              </AskIt>
-            </Children>
-            <CodeBlocks>
-              <CodeBlockReference library="DefaultNWNLibrary">
-                <Name>When &lt;subject&gt; is reached</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <TargetId>140</TargetId>
-                <Parameters>
-                  <KnowIt>
-                    <Name>subject</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Types>
-                      <Type>dialogue_line</Type>
-                    </Types>
-                    <Binding flavour="resource">kg_convo.DLG#4&gt;0&gt;0</Binding>
-                  </KnowIt>
-                </Parameters>
-              </CodeBlockReference>
-            </CodeBlocks>
-          </CauseIt>
-          <CauseIt>
-            <Name>When &lt;subject&gt; is reached</Name>
-            <Visible>true</Visible>
-            <Enabled>true</Enabled>
-            <Labels/>
-            <Children>
-              <KnowIt>
-                <Name>Is Active</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <Types>
-                  <Type>question</Type>
-                </Types>
-                <Binding flavour="function">
-                  <ScriptIt>
-                    <Name>if &lt;Story Point&gt; is active</Name>
-                    <Visible>false</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children/>
-                    <CodeBlocks>
-                      <CodeBlockReference library="DefaultNWNLibrary">
-                        <Name>if &lt;Story Point&gt; is active</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <TargetId>455</TargetId>
-                        <Parameters>
-                          <KnowIt>
-                            <Name>Story Point</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <Types>
-                              <Type>storyPoint</Type>
-                            </Types>
-                            <Binding flavour="storyPoint">
-                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
-                            </Binding>
-                          </KnowIt>
-                        </Parameters>
-                      </CodeBlockReference>
-                    </CodeBlocks>
-                  </ScriptIt>
-                </Binding>
-              </KnowIt>
-              <AskIt>
-                <Name>&lt;Question&gt;</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <Children>
-                  <StoryComponentContainer>
-                    <Name>Yes:</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>FALSE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>430</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>TRUE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>dialogue line</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding flavour="resource">kg_convo.DLG#1</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>431</TargetId>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>468</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Story Point</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>storyPoint</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>Text</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>string</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>string</Type>
-                                  <Value>Trick the boy with candy. So simple.</Value>
-                                </Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                    </Children>
-                  </StoryComponentContainer>
-                  <StoryComponentContainer>
-                    <Name>No:</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children/>
-                  </StoryComponentContainer>
-                </Children>
-                <Condition>
-                  <KnowIt>
-                    <Name>Question</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Types>
-                      <Type>question</Type>
-                    </Types>
-                    <Binding flavour="reference">
-                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/KnowIt"/>
-                    </Binding>
-                  </KnowIt>
-                </Condition>
-              </AskIt>
-            </Children>
-            <CodeBlocks>
-              <CodeBlockReference library="DefaultNWNLibrary">
-                <Name>When &lt;subject&gt; is reached</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <TargetId>140</TargetId>
-                <Parameters>
-                  <KnowIt>
-                    <Name>subject</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Types>
-                      <Type>dialogue_line</Type>
-                    </Types>
-                    <Binding flavour="resource">ge_convo.DLG#3</Binding>
-                  </KnowIt>
-                </Parameters>
-              </CodeBlockReference>
-            </CodeBlocks>
-          </CauseIt>
-          <CauseIt>
-            <Name>When &lt;subject&gt; is reached</Name>
-            <Visible>true</Visible>
-            <Enabled>true</Enabled>
-            <Labels/>
-            <Children>
-              <KnowIt>
-                <Name>Is Active</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels/>
-                <Types>
-                  <Type>question</Type>
-                </Types>
-                <Binding flavour="function">
-                  <ScriptIt>
-                    <Name>if &lt;Story Point&gt; is active</Name>
-                    <Visible>false</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <Children/>
-                    <CodeBlocks>
-                      <CodeBlockReference library="DefaultNWNLibrary">
-                        <Name>if &lt;Story Point&gt; is active</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <TargetId>455</TargetId>
-                        <Parameters>
-                          <KnowIt>
-                            <Name>Story Point</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <Types>
-                              <Type>storyPoint</Type>
-                            </Types>
-                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[6]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                           </KnowIt>
                         </Parameters>
                       </CodeBlockReference>
@@ -4998,7 +4404,7 @@
                                   <Type>location</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt[2]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/KnowIt[2]"/>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -5029,7 +4435,10 @@
                                 <Types>
                                   <Type>enable_disable</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
                               </KnowIt>
                               <KnowIt>
                                 <Name>dialogue line</Name>
@@ -5039,7 +4448,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding flavour="resource">ge_convo.DLG#3</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -5076,7 +4485,7 @@
                                 <Types>
                                   <Type>enable_disable</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>dialogue line</Name>
@@ -5197,6 +4606,56 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
+                        <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>430</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Enable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>TRUE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>dialogue line</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>dialogue_line</Type>
+                                </Types>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[8]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>431</TargetId>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -5220,7 +4679,7 @@
                                 <Types>
                                   <Type>storyPoint</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[6]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Text</Name>
@@ -5259,7 +4718,7 @@
                       <Type>question</Type>
                     </Types>
                     <Binding flavour="reference">
-                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt"/>
+                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[11]/Children/KnowIt"/>
                     </Binding>
                   </KnowIt>
                 </Condition>
@@ -5584,7 +5043,7 @@
                                   <Type>location</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[14]/Children/KnowIt[2]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/KnowIt[2]"/>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -5625,7 +5084,7 @@
                                 <Types>
                                   <Type>walk_speed</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[14]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Location</Name>
@@ -5636,7 +5095,7 @@
                                   <Type>location</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[14]/Children/KnowIt[3]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/KnowIt[3]"/>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -5747,7 +5206,7 @@
                                 <Types>
                                   <Type>storyPoint</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[6]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Text</Name>
@@ -5786,7 +5245,7 @@
                       <Type>question</Type>
                     </Types>
                     <Binding flavour="reference">
-                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[14]/Children/KnowIt"/>
+                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[12]/Children/KnowIt"/>
                     </Binding>
                   </KnowIt>
                 </Condition>
@@ -5993,6 +5452,52 @@
                     <Labels/>
                     <Children>
                       <ScriptIt>
+                        <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>361</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Enable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>TRUE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Disable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>Face the camera &lt;Direction&gt; degrees from the East and &lt;Distance&gt; metres from the character at a &lt;Pitch&gt; degree angle with &lt;Transition Type&gt; transition</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -6065,52 +5570,6 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
-                        <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>361</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Enable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>TRUE</Value>
-                                </Binding>
-                              </KnowIt>
-                              <KnowIt>
-                                <Name>Disable</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>enable_disable</Type>
-                                </Types>
-                                <Binding flavour="constant">
-                                  <Type>enable_disable</Type>
-                                  <Value>FALSE</Value>
-                                </Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
                         <Name>&lt;Mover&gt;&lt;walk&gt;s to &lt;Location&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -6135,7 +5594,7 @@
                                   <Type>creature</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[15]/Children/KnowIt[2]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt[2]"/>
                                 </Binding>
                               </KnowIt>
                               <KnowIt>
@@ -6160,7 +5619,7 @@
                                   <Type>location</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[15]/Children/KnowIt[4]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt[4]"/>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -6201,7 +5660,7 @@
                                 <Types>
                                   <Type>walk_speed</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[15]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[2]/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Location</Name>
@@ -6212,7 +5671,7 @@
                                   <Type>location</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[15]/Children/KnowIt[3]"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt[3]"/>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -6331,7 +5790,7 @@
                       <Type>question</Type>
                     </Types>
                     <Binding flavour="reference">
-                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[15]/Children/KnowIt"/>
+                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[13]/Children/KnowIt"/>
                     </Binding>
                   </KnowIt>
                 </Condition>
