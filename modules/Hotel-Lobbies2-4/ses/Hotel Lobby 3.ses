@@ -1,0 +1,25 @@
+<Story>
+  <Title>Hotel Lobby 3</Title>
+  <Author>Ulvi</Author>
+  <Version>2.7</Version>
+  <Translator>Neverwinter Nights</Translator>
+  <OptionalLibraries/>
+  <GameModule>C:\Games\NeverwinterNights\NWN\modules\Hotel Lobby 3.mod</GameModule>
+  <Dialogues/>
+  <StartStoryPoint>
+    <Name>Start</Name>
+    <Visible>true</Visible>
+    <Enabled>true</Enabled>
+    <Labels/>
+    <Children>
+      <Note>
+        <Name>You can&apos;t put story components in here. Add a new story point instead!</Name>
+        <Visible>true</Visible>
+        <Enabled>true</Enabled>
+        <Labels/>
+      </Note>
+    </Children>
+    <Successors/>
+    <FanIn>1</FanIn>
+  </StartStoryPoint>
+</Story>
