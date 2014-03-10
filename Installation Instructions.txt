@@ -1,0 +1,41 @@
+Installation:
+
+	1) Move Mod files into 'C:\Games\NeverwinterNights\NWN\modules'
+    		a) Hotel Lobby.mod
+		b) ERC-Game-0.mod
+		C) ERC-Game-1.mod
+		d) ERC-Descent.mod
+		e) ERC-Descent-2.mod
+		f) ERC-Descent-3.mod
+		g) Ascent.mod
+
+	2) Move hak packs into 'C:\Games\NeverwinterNights\NWN\hak'
+		a) RL_gothic_int.hak
+		b) RL_gothic_estates.hak
+		c) RL_gothicgarden.hak
+		d) ls_portraits.hak
+		e) ERC-SoundPack.hak
+		f) Mdrn_cloth_vol_1.hak
+		g) LisasClothes168.hak
+		h) alva_children.hak
+		i) JXP_Placeables.hak
+		j) lavamountains.hak
+
+	3) Move playable character models into 'C:\Games\NeverwinterNights\NWN\localvault'
+		a) gideonde'marsh.bic
+
+
+
+Run the application:
+
+	1) Start NWN
+	2) Select 'Play'
+	3) Select 'New'
+	4) Select 'Other modules...'
+	5) Select 'Hotel Lobby'
+	6) Select 'Load'
+	7) Select 'Select Premade Character'
+	8) Select 'Gideon de'Marsh(1)'
+	9) Select 'Play'
+
+Enjoy!
