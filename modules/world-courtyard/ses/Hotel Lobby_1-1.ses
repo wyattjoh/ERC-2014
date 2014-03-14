@@ -537,7 +537,7 @@
                                   <Type>item</Type>
                                   <Type>trigger</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
+                                <Binding flavour="resource">host.UTC</Binding>
                               </KnowIt>
                               <KnowIt>
                                 <Name>Voice Chat</Name>
