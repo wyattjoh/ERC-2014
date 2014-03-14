@@ -21,7 +21,7 @@
     </Children>
     <Successors>
       <StoryPoint>
-        <Name>Setup</Name>
+        <Name>HideAndSeek</Name>
         <Visible>true</Visible>
         <Enabled>true</Enabled>
         <Labels/>
@@ -114,6 +114,36 @@
                     <Enabled>true</Enabled>
                     <Labels/>
                     <Children>
+                      <ScriptIt>
+                        <Name>Add Journal Record for &lt;Story Point&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Add Journal Record for &lt;Story Point&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>467</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Story Point</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>storyPoint</Type>
+                                </Types>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
                       <ScriptIt>
                         <Name>Face the camera &lt;Direction&gt; degrees from the East and &lt;Distance&gt; metres from the character at a &lt;Pitch&gt; degree angle with &lt;Transition Type&gt; transition</Name>
                         <Visible>true</Visible>
@@ -628,6 +658,35 @@
                   </ScriptIt>
                 </Binding>
               </KnowIt>
+              <KnowIt>
+                <Name>The Player Character</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels/>
+                <Types>
+                  <Type>creature</Type>
+                </Types>
+                <Binding flavour="function">
+                  <ScriptIt>
+                    <Name>The Player Character</Name>
+                    <Visible>false</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels>
+                      <Label></Label>
+                    </Labels>
+                    <Children/>
+                    <CodeBlocks>
+                      <CodeBlockReference library="DefaultNWNLibrary">
+                        <Name>The Player Character</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <TargetId>439</TargetId>
+                      </CodeBlockReference>
+                    </CodeBlocks>
+                  </ScriptIt>
+                </Binding>
+              </KnowIt>
               <AskIt>
                 <Name>&lt;Question&gt;</Name>
                 <Visible>true</Visible>
@@ -664,7 +723,7 @@
                                 <Types>
                                   <Type>creature</Type>
                                 </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>walk</Name>
@@ -689,6 +748,103 @@
                                 </Types>
                                 <Binding flavour="reference">
                                   <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/KnowIt[2]"/>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Create &lt;Item&gt; in &lt;Object&gt;&apos;s inventory with stack size of &lt;Stack&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Create &lt;Item&gt; in &lt;Object&gt;&apos;s inventory with stack size of &lt;Stack&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>579</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Item</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>item</Type>
+                                </Types>
+                                <Binding flavour="resource">it_torch002.UTI</Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>creature</Type>
+                                  <Type>placeable</Type>
+                                </Types>
+                                <Binding flavour="reference">
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/KnowIt[3]"/>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Stack</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>float</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>float</Type>
+                                  <Value>1.0</Value>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>468</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Story Point</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>storyPoint</Type>
+                                </Types>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Text</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>string</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>string</Type>
+                                  <Value>I seem to have aquired a torch. If I equip it, it should be easier to see down here.</Value>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -944,6 +1100,49 @@
                                 <Enabled>true</Enabled>
                                 <Labels/>
                                 <TargetId>431</TargetId>
+                              </CodeBlockReference>
+                            </CodeBlocks>
+                          </ScriptIt>
+                          <ScriptIt>
+                            <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels>
+                              <Label>NOW</Label>
+                            </Labels>
+                            <Children/>
+                            <CodeBlocks>
+                              <CodeBlockReference library="DefaultNWNLibrary">
+                                <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <TargetId>468</TargetId>
+                                <Parameters>
+                                  <KnowIt>
+                                    <Name>Story Point</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>storyPoint</Type>
+                                    </Types>
+                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                  </KnowIt>
+                                  <KnowIt>
+                                    <Name>Text</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>string</Type>
+                                    </Types>
+                                    <Binding flavour="constant">
+                                      <Type>string</Type>
+                                      <Value>Let&apos;s find go find the boy.</Value>
+                                    </Binding>
+                                  </KnowIt>
+                                </Parameters>
                               </CodeBlockReference>
                             </CodeBlocks>
                           </ScriptIt>
@@ -1235,7 +1434,7 @@
                                     <Types>
                                       <Type>creature</Type>
                                     </Types>
-                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
+                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                   </KnowIt>
                                   <KnowIt>
                                     <Name>walk</Name>
@@ -1519,6 +1718,51 @@
                                 </CodeBlocks>
                               </ScriptIt>
                               <ScriptIt>
+                                <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels>
+                                  <Label>NOW</Label>
+                                </Labels>
+                                <Children/>
+                                <CodeBlocks>
+                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                    <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <TargetId>468</TargetId>
+                                    <Parameters>
+                                      <KnowIt>
+                                        <Name>Story Point</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>storyPoint</Type>
+                                        </Types>
+                                        <Binding flavour="storyPoint">
+                                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                                        </Binding>
+                                      </KnowIt>
+                                      <KnowIt>
+                                        <Name>Text</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>string</Type>
+                                        </Types>
+                                        <Binding flavour="constant">
+                                          <Type>string</Type>
+                                          <Value>The boy is determined to find the princess. Let&apos;s go find the boy again.</Value>
+                                        </Binding>
+                                      </KnowIt>
+                                    </Parameters>
+                                  </CodeBlockReference>
+                                </CodeBlocks>
+                              </ScriptIt>
+                              <ScriptIt>
                                 <Name>Succeed &lt;Story Point&gt;</Name>
                                 <Visible>true</Visible>
                                 <Enabled>true</Enabled>
@@ -1542,7 +1786,9 @@
                                         <Types>
                                           <Type>storyPoint</Type>
                                         </Types>
-                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                        <Binding flavour="storyPoint">
+                                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
+                                        </Binding>
                                       </KnowIt>
                                     </Parameters>
                                   </CodeBlockReference>
@@ -1804,7 +2050,7 @@
                                         <Types>
                                           <Type>creature</Type>
                                         </Types>
-                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
+                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                       </KnowIt>
                                       <KnowIt>
                                         <Name>walk</Name>
@@ -2088,6 +2334,51 @@
                                     </CodeBlocks>
                                   </ScriptIt>
                                   <ScriptIt>
+                                    <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>468</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Story Point</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>storyPoint</Type>
+                                            </Types>
+                                            <Binding flavour="storyPoint">
+                                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                                            </Binding>
+                                          </KnowIt>
+                                          <KnowIt>
+                                            <Name>Text</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>string</Type>
+                                            </Types>
+                                            <Binding flavour="constant">
+                                              <Type>string</Type>
+                                              <Value>The boy is determined to find the princess. Let&apos;s go find the boy again.</Value>
+                                            </Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
                                     <Name>Succeed &lt;Story Point&gt;</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
@@ -2111,7 +2402,9 @@
                                             <Types>
                                               <Type>storyPoint</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                            <Binding flavour="storyPoint">
+                                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
+                                            </Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -2373,7 +2666,7 @@
                                             <Types>
                                               <Type>creature</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                           </KnowIt>
                                           <KnowIt>
                                             <Name>walk</Name>
@@ -2716,6 +3009,51 @@
                                       </CodeBlockReference>
                                     </CodeBlocks>
                                   </ControlIt>
+                                  <ScriptIt>
+                                    <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>468</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Story Point</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>storyPoint</Type>
+                                            </Types>
+                                            <Binding flavour="storyPoint">
+                                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                                            </Binding>
+                                          </KnowIt>
+                                          <KnowIt>
+                                            <Name>Text</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>string</Type>
+                                            </Types>
+                                            <Binding flavour="constant">
+                                              <Type>string</Type>
+                                              <Value>One more time, let&apos;s find the boy.</Value>
+                                            </Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
                                 </Children>
                               </StoryComponentContainer>
                               <StoryComponentContainer>
