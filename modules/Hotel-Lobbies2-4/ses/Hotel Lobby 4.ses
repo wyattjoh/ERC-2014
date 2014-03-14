@@ -1,10 +1,10 @@
 <Story>
-  <Title>Hotel Lobby 4</Title>
+  <Title>*Hotel Lobby 4</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
   <OptionalLibraries/>
-  <GameModule>C:\Games\NeverwinterNights\NWN\modules\Hotel Lobby 4a.mod</GameModule>
+  <GameModule>C:\Games\NeverwinterNights\NWN\modules\Hotel Lobby 4.mod</GameModule>
   <Dialogues/>
   <StartStoryPoint>
     <Name>Start</Name>
@@ -315,7 +315,7 @@
                                 </Types>
                                 <Binding flavour="constant">
                                   <Type>string</Type>
-                                  <Value></Value>
+                                  <Value>Outro (Bad)</Value>
                                 </Binding>
                               </KnowIt>
                               <KnowIt>
@@ -468,7 +468,7 @@
                                 </Types>
                                 <Binding flavour="constant">
                                   <Type>string</Type>
-                                  <Value></Value>
+                                  <Value>Outro (Good)</Value>
                                 </Binding>
                               </KnowIt>
                               <KnowIt>

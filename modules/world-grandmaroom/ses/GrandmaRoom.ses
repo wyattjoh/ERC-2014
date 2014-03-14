@@ -1,5 +1,5 @@
 <Story>
-  <Title>*GrandmaRoom</Title>
+  <Title>GrandmaRoom</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -2239,6 +2239,46 @@
                                                         </CodeBlocks>
                                                       </ScriptIt>
                                                       <ScriptIt>
+                                                        <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                                        <Visible>true</Visible>
+                                                        <Enabled>true</Enabled>
+                                                        <Labels>
+                                                          <Label>TODO</Label>
+                                                        </Labels>
+                                                        <Children/>
+                                                        <CodeBlocks>
+                                                          <CodeBlockReference library="DefaultNWNLibrary">
+                                                            <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                                            <Visible>true</Visible>
+                                                            <Enabled>true</Enabled>
+                                                            <Labels/>
+                                                            <TargetId>149</TargetId>
+                                                            <Parameters>
+                                                              <KnowIt>
+                                                                <Name>Creature</Name>
+                                                                <Visible>true</Visible>
+                                                                <Enabled>true</Enabled>
+                                                                <Labels/>
+                                                                <Types>
+                                                                  <Type>creature</Type>
+                                                                </Types>
+                                                                <Binding flavour="resource">edith.UTC</Binding>
+                                                              </KnowIt>
+                                                              <KnowIt>
+                                                                <Name>Creature To Face</Name>
+                                                                <Visible>true</Visible>
+                                                                <Enabled>true</Enabled>
+                                                                <Labels/>
+                                                                <Types>
+                                                                  <Type>creature</Type>
+                                                                </Types>
+                                                                <Binding flavour="resource">young.UTC</Binding>
+                                                              </KnowIt>
+                                                            </Parameters>
+                                                          </CodeBlockReference>
+                                                        </CodeBlocks>
+                                                      </ScriptIt>
+                                                      <ScriptIt>
                                                         <Name>Stop &lt;Sound Object&gt;</Name>
                                                         <Visible>true</Visible>
                                                         <Enabled>true</Enabled>
@@ -4469,6 +4509,46 @@
                                         <Labels/>
                                         <Children>
                                           <ScriptIt>
+                                            <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels>
+                                              <Label>TODO</Label>
+                                            </Labels>
+                                            <Children/>
+                                            <CodeBlocks>
+                                              <CodeBlockReference library="DefaultNWNLibrary">
+                                                <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                                <Visible>true</Visible>
+                                                <Enabled>true</Enabled>
+                                                <Labels/>
+                                                <TargetId>149</TargetId>
+                                                <Parameters>
+                                                  <KnowIt>
+                                                    <Name>Creature</Name>
+                                                    <Visible>true</Visible>
+                                                    <Enabled>true</Enabled>
+                                                    <Labels/>
+                                                    <Types>
+                                                      <Type>creature</Type>
+                                                    </Types>
+                                                    <Binding flavour="resource">edith.UTC</Binding>
+                                                  </KnowIt>
+                                                  <KnowIt>
+                                                    <Name>Creature To Face</Name>
+                                                    <Visible>true</Visible>
+                                                    <Enabled>true</Enabled>
+                                                    <Labels/>
+                                                    <Types>
+                                                      <Type>creature</Type>
+                                                    </Types>
+                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                  </KnowIt>
+                                                </Parameters>
+                                              </CodeBlockReference>
+                                            </CodeBlocks>
+                                          </ScriptIt>
+                                          <ScriptIt>
                                             <Name>&lt;Speaker&gt; speaks a one-liner conversation from &lt;Conversation&gt;</Name>
                                             <Visible>true</Visible>
                                             <Enabled>true</Enabled>
@@ -4496,7 +4576,7 @@
                                                       <Type>item</Type>
                                                       <Type>trigger</Type>
                                                     </Types>
-                                                    <Binding flavour="resource">edith.UTC</Binding>
+                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                   </KnowIt>
                                                   <KnowIt>
                                                     <Name>Conversation</Name>
@@ -4646,7 +4726,7 @@
                                                         <Types>
                                                           <Type>sound</Type>
                                                         </Types>
-                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                       </KnowIt>
                                                     </Parameters>
                                                   </CodeBlockReference>
@@ -11039,6 +11119,46 @@
                                                                                                       <Type>dialogue</Type>
                                                                                                     </Types>
                                                                                                     <Binding flavour="resource">a_2.DLG</Binding>
+                                                                                                  </KnowIt>
+                                                                                                </Parameters>
+                                                                                              </CodeBlockReference>
+                                                                                            </CodeBlocks>
+                                                                                          </ScriptIt>
+                                                                                          <ScriptIt>
+                                                                                            <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                                                                            <Visible>true</Visible>
+                                                                                            <Enabled>true</Enabled>
+                                                                                            <Labels>
+                                                                                              <Label>TODO</Label>
+                                                                                            </Labels>
+                                                                                            <Children/>
+                                                                                            <CodeBlocks>
+                                                                                              <CodeBlockReference library="DefaultNWNLibrary">
+                                                                                                <Name>&lt;Creature&gt; faces &lt;Creature To Face&gt;</Name>
+                                                                                                <Visible>true</Visible>
+                                                                                                <Enabled>true</Enabled>
+                                                                                                <Labels/>
+                                                                                                <TargetId>149</TargetId>
+                                                                                                <Parameters>
+                                                                                                  <KnowIt>
+                                                                                                    <Name>Creature</Name>
+                                                                                                    <Visible>true</Visible>
+                                                                                                    <Enabled>true</Enabled>
+                                                                                                    <Labels/>
+                                                                                                    <Types>
+                                                                                                      <Type>creature</Type>
+                                                                                                    </Types>
+                                                                                                    <Binding flavour="resource">edith.UTC</Binding>
+                                                                                                  </KnowIt>
+                                                                                                  <KnowIt>
+                                                                                                    <Name>Creature To Face</Name>
+                                                                                                    <Visible>true</Visible>
+                                                                                                    <Enabled>true</Enabled>
+                                                                                                    <Labels/>
+                                                                                                    <Types>
+                                                                                                      <Type>creature</Type>
+                                                                                                    </Types>
+                                                                                                    <Binding flavour="resource">abby002.UTC</Binding>
                                                                                                   </KnowIt>
                                                                                                 </Parameters>
                                                                                               </CodeBlockReference>
