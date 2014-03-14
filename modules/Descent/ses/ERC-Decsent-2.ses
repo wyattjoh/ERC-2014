@@ -1,5 +1,5 @@
 <Story>
-  <Title>ERC-Decsent-2</Title>
+  <Title>*ERC-Decsent-2</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -404,7 +404,7 @@
                                   <Type>door</Type>
                                   <Type>placeable</Type>
                                 </Types>
-                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                <Binding flavour="resource">young.UTC</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -592,7 +592,7 @@
                                       <Type>item</Type>
                                       <Type>trigger</Type>
                                     </Types>
-                                    <Binding flavour="resource">malekid002.UTC</Binding>
+                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                   </KnowIt>
                                   <KnowIt>
                                     <Name>Spell</Name>
@@ -883,7 +883,7 @@
                                           <Type>door</Type>
                                           <Type>placeable</Type>
                                         </Types>
-                                        <Binding flavour="resource">malekid002.UTC</Binding>
+                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                       </KnowIt>
                                     </Parameters>
                                   </CodeBlockReference>
@@ -1163,7 +1163,7 @@
                                 <Types>
                                   <Type>creature</Type>
                                 </Types>
-                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                               </KnowIt>
                               <KnowIt>
                                 <Name>walk</Name>

@@ -261,7 +261,7 @@
                                   <Type>door</Type>
                                   <Type>placeable</Type>
                                 </Types>
-                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                <Binding flavour="resource">young.UTC</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -699,7 +699,7 @@
                                     <Types>
                                       <Type>creature</Type>
                                     </Types>
-                                    <Binding flavour="resource">malekid002.UTC</Binding>
+                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                   </KnowIt>
                                   <KnowIt>
                                     <Name>walk</Name>
@@ -2437,7 +2437,7 @@
                                                   <Type>item</Type>
                                                   <Type>trigger</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>Conversation</Name>
@@ -3287,7 +3287,7 @@
                                                   <Type>item</Type>
                                                   <Type>trigger</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>Conversation</Name>
@@ -4542,7 +4542,7 @@
                                                   <Type>item</Type>
                                                   <Type>trigger</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>Conversation</Name>
@@ -5257,7 +5257,7 @@
                                                   <Type>item</Type>
                                                   <Type>trigger</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>Conversation</Name>
@@ -11453,7 +11453,7 @@
                                                 <Types>
                                                   <Type>creature</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>walk</Name>
@@ -11715,7 +11715,7 @@
                                         <Types>
                                           <Type>creature</Type>
                                         </Types>
-                                        <Binding flavour="resource">malekid002.UTC</Binding>
+                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                       </KnowIt>
                                       <KnowIt>
                                         <Name>walk</Name>
@@ -12096,7 +12096,7 @@
                                                     <Types>
                                                       <Type>creature</Type>
                                                     </Types>
-                                                    <Binding flavour="resource">malekid002.UTC</Binding>
+                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                   </KnowIt>
                                                   <KnowIt>
                                                     <Name>walk</Name>
@@ -12358,7 +12358,7 @@
                                             <Types>
                                               <Type>creature</Type>
                                             </Types>
-                                            <Binding flavour="resource">malekid002.UTC</Binding>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                           </KnowIt>
                                           <KnowIt>
                                             <Name>walk</Name>
@@ -12737,7 +12737,7 @@
                                                         <Types>
                                                           <Type>creature</Type>
                                                         </Types>
-                                                        <Binding flavour="resource">malekid002.UTC</Binding>
+                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                       </KnowIt>
                                                       <KnowIt>
                                                         <Name>walk</Name>
@@ -12997,7 +12997,7 @@
                                                 <Types>
                                                   <Type>creature</Type>
                                                 </Types>
-                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                               </KnowIt>
                                               <KnowIt>
                                                 <Name>walk</Name>
@@ -13376,7 +13376,7 @@
                                                             <Types>
                                                               <Type>creature</Type>
                                                             </Types>
-                                                            <Binding flavour="resource">malekid002.UTC</Binding>
+                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                           </KnowIt>
                                                           <KnowIt>
                                                             <Name>walk</Name>
@@ -13638,7 +13638,7 @@
                                                     <Types>
                                                       <Type>creature</Type>
                                                     </Types>
-                                                    <Binding flavour="resource">malekid002.UTC</Binding>
+                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                   </KnowIt>
                                                   <KnowIt>
                                                     <Name>walk</Name>
@@ -14017,7 +14017,7 @@
                                                                 <Types>
                                                                   <Type>creature</Type>
                                                                 </Types>
-                                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                               </KnowIt>
                                                               <KnowIt>
                                                                 <Name>walk</Name>
@@ -14279,7 +14279,7 @@
                                                         <Types>
                                                           <Type>creature</Type>
                                                         </Types>
-                                                        <Binding flavour="resource">malekid002.UTC</Binding>
+                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                       </KnowIt>
                                                       <KnowIt>
                                                         <Name>walk</Name>
@@ -14658,7 +14658,7 @@
                                                                     <Types>
                                                                       <Type>creature</Type>
                                                                     </Types>
-                                                                    <Binding flavour="resource">malekid002.UTC</Binding>
+                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                                   </KnowIt>
                                                                   <KnowIt>
                                                                     <Name>walk</Name>
@@ -14920,7 +14920,7 @@
                                                             <Types>
                                                               <Type>creature</Type>
                                                             </Types>
-                                                            <Binding flavour="resource">malekid002.UTC</Binding>
+                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                           </KnowIt>
                                                           <KnowIt>
                                                             <Name>walk</Name>
@@ -15299,7 +15299,7 @@
                                                                         <Types>
                                                                           <Type>creature</Type>
                                                                         </Types>
-                                                                        <Binding flavour="resource">malekid002.UTC</Binding>
+                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                                       </KnowIt>
                                                                       <KnowIt>
                                                                         <Name>walk</Name>
@@ -15659,7 +15659,7 @@
                                                                 <Types>
                                                                   <Type>creature</Type>
                                                                 </Types>
-                                                                <Binding flavour="resource">malekid002.UTC</Binding>
+                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt[3]/Binding"/>
                                                               </KnowIt>
                                                               <KnowIt>
                                                                 <Name>walk</Name>
