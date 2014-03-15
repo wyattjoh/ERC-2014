@@ -21,7 +21,7 @@
     </Children>
     <Successors>
       <StoryPoint>
-        <Name>Disable Sound 2</Name>
+        <Name>Disable Sound</Name>
         <Visible>true</Visible>
         <Enabled>true</Enabled>
         <Labels/>
@@ -109,7 +109,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">critisize.UTS</Binding>
+                                <Binding flavour="resource">easynow.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -139,7 +139,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">notreally.UTS</Binding>
+                                <Binding flavour="resource">fathernow.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -169,7 +169,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">comein.UTS</Binding>
+                                <Binding flavour="resource">father.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -199,7 +199,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">blameher.UTS</Binding>
+                                <Binding flavour="resource">filthymess.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -229,7 +229,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">enough.UTS</Binding>
+                                <Binding flavour="resource">finesad.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -259,7 +259,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">fightwith.UTS</Binding>
+                                <Binding flavour="resource">getsomeres.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -289,7 +289,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">hazy.UTS</Binding>
+                                <Binding flavour="resource">imfine.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -319,7 +319,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">neither.UTS</Binding>
+                                <Binding flavour="resource">liketoplay.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -349,7 +349,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">nosey.UTS</Binding>
+                                <Binding flavour="resource">not2nite.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -379,7 +379,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">ohedith.UTS</Binding>
+                                <Binding flavour="resource">notconfu.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -409,7 +409,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">custom003.UTS</Binding>
+                                <Binding flavour="resource">notfine.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -439,7 +439,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">sorry.UTS</Binding>
+                                <Binding flavour="resource">papacraz.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -469,7 +469,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">startle.UTS</Binding>
+                                <Binding flavour="resource">pullsake.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -499,7 +499,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">uncalled.UTS</Binding>
+                                <Binding flavour="resource">readyhim.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -529,7 +529,157 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">under.UTS</Binding>
+                                <Binding flavour="resource">sassman.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">stateofbo.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">finesad001.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">worktodo.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">youexag.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">your_room.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -641,7 +791,7 @@
                     <Types>
                       <Type>storyPoint</Type>
                     </Types>
-                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                   </KnowIt>
                   <KnowIt>
                     <Name>subject</Name>
@@ -3905,7 +4055,7 @@
                                                                 </Types>
                                                                 <Binding flavour="constant">
                                                                   <Type>float</Type>
-                                                                  <Value>2.0</Value>
+                                                                  <Value>3.0</Value>
                                                                 </Binding>
                                                               </KnowIt>
                                                             </Parameters>
@@ -3931,7 +4081,7 @@
                                                             </Types>
                                                             <Binding flavour="constant">
                                                               <Type>float</Type>
-                                                              <Value>1.0</Value>
+                                                              <Value>2.0</Value>
                                                             </Binding>
                                                           </KnowIt>
                                                         </Parameters>
@@ -10958,7 +11108,7 @@
                                                                                             <Types>
                                                                                               <Type>sound</Type>
                                                                                             </Types>
-                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[13]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                            <Binding flavour="resource">startle.UTS</Binding>
                                                                                           </KnowIt>
                                                                                         </Parameters>
                                                                                       </CodeBlockReference>
@@ -11038,7 +11188,7 @@
                                                                                                 <Types>
                                                                                                   <Type>sound</Type>
                                                                                                 </Types>
-                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[13]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                               </KnowIt>
                                                                                             </Parameters>
                                                                                           </CodeBlockReference>
@@ -11068,7 +11218,7 @@
                                                                                                 <Types>
                                                                                                   <Type>sound</Type>
                                                                                                 </Types>
-                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                <Binding flavour="resource">comein.UTS</Binding>
                                                                                               </KnowIt>
                                                                                             </Parameters>
                                                                                           </CodeBlockReference>
@@ -11188,7 +11338,7 @@
                                                                                                     <Types>
                                                                                                       <Type>sound</Type>
                                                                                                     </Types>
-                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                   </KnowIt>
                                                                                                 </Parameters>
                                                                                               </CodeBlockReference>
@@ -11218,7 +11368,7 @@
                                                                                                     <Types>
                                                                                                       <Type>sound</Type>
                                                                                                     </Types>
-                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[15]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                    <Binding flavour="resource">under.UTS</Binding>
                                                                                                   </KnowIt>
                                                                                                 </Parameters>
                                                                                               </CodeBlockReference>
@@ -11298,7 +11448,7 @@
                                                                                                         <Types>
                                                                                                           <Type>sound</Type>
                                                                                                         </Types>
-                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[15]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                       </KnowIt>
                                                                                                     </Parameters>
                                                                                                   </CodeBlockReference>
@@ -11328,7 +11478,7 @@
                                                                                                         <Types>
                                                                                                           <Type>sound</Type>
                                                                                                         </Types>
-                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                        <Binding flavour="resource">notreally.UTS</Binding>
                                                                                                       </KnowIt>
                                                                                                     </Parameters>
                                                                                                   </CodeBlockReference>
@@ -11408,7 +11558,7 @@
                                                                                                             <Types>
                                                                                                               <Type>sound</Type>
                                                                                                             </Types>
-                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                           </KnowIt>
                                                                                                         </Parameters>
                                                                                                       </CodeBlockReference>
@@ -11438,7 +11588,7 @@
                                                                                                             <Types>
                                                                                                               <Type>sound</Type>
                                                                                                             </Types>
-                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                            <Binding flavour="resource">blameher.UTS</Binding>
                                                                                                           </KnowIt>
                                                                                                         </Parameters>
                                                                                                       </CodeBlockReference>
@@ -11548,7 +11698,7 @@
                                                                                                                 <Types>
                                                                                                                   <Type>sound</Type>
                                                                                                                 </Types>
-                                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[9]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                <Binding flavour="resource">nosey.UTS</Binding>
                                                                                                               </KnowIt>
                                                                                                             </Parameters>
                                                                                                           </CodeBlockReference>
@@ -11628,7 +11778,7 @@
                                                                                                                     <Types>
                                                                                                                       <Type>sound</Type>
                                                                                                                     </Types>
-                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[9]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                                   </KnowIt>
                                                                                                                 </Parameters>
                                                                                                               </CodeBlockReference>
@@ -11658,7 +11808,7 @@
                                                                                                                     <Types>
                                                                                                                       <Type>sound</Type>
                                                                                                                     </Types>
-                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[14]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                    <Binding flavour="resource">uncalled.UTS</Binding>
                                                                                                                   </KnowIt>
                                                                                                                 </Parameters>
                                                                                                               </CodeBlockReference>
@@ -11738,7 +11888,7 @@
                                                                                                                         <Types>
                                                                                                                           <Type>sound</Type>
                                                                                                                         </Types>
-                                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[14]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                                       </KnowIt>
                                                                                                                     </Parameters>
                                                                                                                   </CodeBlockReference>
@@ -11768,7 +11918,7 @@
                                                                                                                         <Types>
                                                                                                                           <Type>sound</Type>
                                                                                                                         </Types>
-                                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                        <Binding flavour="resource">critisize.UTS</Binding>
                                                                                                                       </KnowIt>
                                                                                                                     </Parameters>
                                                                                                                   </CodeBlockReference>
@@ -12218,7 +12368,7 @@
                                                                                             <Types>
                                                                                               <Type>sound</Type>
                                                                                             </Types>
-                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                           </KnowIt>
                                                                                         </Parameters>
                                                                                       </CodeBlockReference>
@@ -12248,7 +12398,7 @@
                                                                                             <Types>
                                                                                               <Type>sound</Type>
                                                                                             </Types>
-                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[11]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                            <Binding flavour="resource">custom003.UTS</Binding>
                                                                                           </KnowIt>
                                                                                         </Parameters>
                                                                                       </CodeBlockReference>
@@ -12328,7 +12478,7 @@
                                                                                                 <Types>
                                                                                                   <Type>sound</Type>
                                                                                                 </Types>
-                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[11]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                               </KnowIt>
                                                                                             </Parameters>
                                                                                           </CodeBlockReference>
@@ -12358,7 +12508,7 @@
                                                                                                 <Types>
                                                                                                   <Type>sound</Type>
                                                                                                 </Types>
-                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                <Binding flavour="resource">neither.UTS</Binding>
                                                                                               </KnowIt>
                                                                                             </Parameters>
                                                                                           </CodeBlockReference>
@@ -12438,7 +12588,7 @@
                                                                                                     <Types>
                                                                                                       <Type>sound</Type>
                                                                                                     </Types>
-                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[8]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                   </KnowIt>
                                                                                                 </Parameters>
                                                                                               </CodeBlockReference>
@@ -12468,7 +12618,7 @@
                                                                                                     <Types>
                                                                                                       <Type>sound</Type>
                                                                                                     </Types>
-                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[6]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                    <Binding flavour="resource">fightwith.UTS</Binding>
                                                                                                   </KnowIt>
                                                                                                 </Parameters>
                                                                                               </CodeBlockReference>
@@ -12548,7 +12698,7 @@
                                                                                                         <Types>
                                                                                                           <Type>sound</Type>
                                                                                                         </Types>
-                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[6]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                       </KnowIt>
                                                                                                     </Parameters>
                                                                                                   </CodeBlockReference>
@@ -12578,7 +12728,7 @@
                                                                                                         <Types>
                                                                                                           <Type>sound</Type>
                                                                                                         </Types>
-                                                                                                        <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[12]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                        <Binding flavour="resource">sorry.UTS</Binding>
                                                                                                       </KnowIt>
                                                                                                     </Parameters>
                                                                                                   </CodeBlockReference>
@@ -12658,7 +12808,7 @@
                                                                                                             <Types>
                                                                                                               <Type>sound</Type>
                                                                                                             </Types>
-                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[12]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                           </KnowIt>
                                                                                                         </Parameters>
                                                                                                       </CodeBlockReference>
@@ -12688,7 +12838,7 @@
                                                                                                             <Types>
                                                                                                               <Type>sound</Type>
                                                                                                             </Types>
-                                                                                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[10]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                            <Binding flavour="resource">ohedith.UTS</Binding>
                                                                                                           </KnowIt>
                                                                                                         </Parameters>
                                                                                                       </CodeBlockReference>
@@ -12768,7 +12918,7 @@
                                                                                                                 <Types>
                                                                                                                   <Type>sound</Type>
                                                                                                                 </Types>
-                                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[10]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                               </KnowIt>
                                                                                                             </Parameters>
                                                                                                           </CodeBlockReference>
@@ -12798,7 +12948,7 @@
                                                                                                                 <Types>
                                                                                                                   <Type>sound</Type>
                                                                                                                 </Types>
-                                                                                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                <Binding flavour="resource">enough.UTS</Binding>
                                                                                                               </KnowIt>
                                                                                                             </Parameters>
                                                                                                           </CodeBlockReference>
@@ -12878,7 +13028,7 @@
                                                                                                                     <Types>
                                                                                                                       <Type>sound</Type>
                                                                                                                     </Types>
-                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[5]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                                                                                   </KnowIt>
                                                                                                                 </Parameters>
                                                                                                               </CodeBlockReference>
@@ -12908,7 +13058,7 @@
                                                                                                                     <Types>
                                                                                                                       <Type>sound</Type>
                                                                                                                     </Types>
-                                                                                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                                                                                    <Binding flavour="resource">hazy.UTS</Binding>
                                                                                                                   </KnowIt>
                                                                                                                 </Parameters>
                                                                                                               </CodeBlockReference>
@@ -14162,7 +14312,7 @@
         <FanIn>1</FanIn>
       </StoryPoint>
       <StoryPoint>
-        <Name>Disable Sound</Name>
+        <Name>Disable Sound 2</Name>
         <Visible>true</Visible>
         <Enabled>true</Enabled>
         <Labels/>
@@ -14250,7 +14400,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">easynow.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14280,7 +14430,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">fathernow.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14310,7 +14460,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">father.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14340,7 +14490,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">filthymess.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14370,7 +14520,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">finesad.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14400,7 +14550,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">getsomeres.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14430,7 +14580,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">imfine.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14460,7 +14610,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">liketoplay.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14490,7 +14640,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">not2nite.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14520,7 +14670,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">notconfu.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14550,7 +14700,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">notfine.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14580,7 +14730,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">papacraz.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14610,7 +14760,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">pullsake.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14640,7 +14790,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">readyhim.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14670,157 +14820,7 @@
                                 <Types>
                                   <Type>sound</Type>
                                 </Types>
-                                <Binding flavour="resource">sassman.UTS</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Stop &lt;Sound Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Stop &lt;Sound Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>577</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Sound Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>sound</Type>
-                                </Types>
-                                <Binding flavour="resource">stateofbo.UTS</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Stop &lt;Sound Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Stop &lt;Sound Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>577</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Sound Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>sound</Type>
-                                </Types>
-                                <Binding flavour="resource">finesad001.UTS</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Stop &lt;Sound Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Stop &lt;Sound Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>577</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Sound Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>sound</Type>
-                                </Types>
-                                <Binding flavour="resource">worktodo.UTS</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Stop &lt;Sound Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Stop &lt;Sound Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>577</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Sound Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>sound</Type>
-                                </Types>
-                                <Binding flavour="resource">youexag.UTS</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Stop &lt;Sound Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Stop &lt;Sound Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>577</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Sound Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>sound</Type>
-                                </Types>
-                                <Binding flavour="resource">your_room.UTS</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ControlIt/Children/ControlIt/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -14932,7 +14932,7 @@
                     <Types>
                       <Type>storyPoint</Type>
                     </Types>
-                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint[2]/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint[2]/Children/CauseIt/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                   </KnowIt>
                   <KnowIt>
                     <Name>subject</Name>

@@ -961,7 +961,7 @@
                                     </Types>
                                     <Binding flavour="constant">
                                       <Type>string</Type>
-                                      <Value>Looks like I have to find the Roses lantern somewhere in this maze...</Value>
+                                      <Value>Looks like I have to find Rose&apos;s lantern somewhere in this maze...</Value>
                                     </Binding>
                                   </KnowIt>
                                 </Parameters>

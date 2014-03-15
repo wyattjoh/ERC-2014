@@ -105,51 +105,6 @@
                   </CodeBlockReference>
                 </CodeBlocks>
               </ScriptIt>
-              <ScriptIt>
-                <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels>
-                  <Label>NOW</Label>
-                </Labels>
-                <Children/>
-                <CodeBlocks>
-                  <CodeBlockReference library="DefaultNWNLibrary">
-                    <Name>Add Journal Point to Journal Record of &lt;Story Point&gt; with text &lt;Text&gt;</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <TargetId>468</TargetId>
-                    <Parameters>
-                      <KnowIt>
-                        <Name>Story Point</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <Types>
-                          <Type>storyPoint</Type>
-                        </Types>
-                        <Binding flavour="storyPoint">
-                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
-                        </Binding>
-                      </KnowIt>
-                      <KnowIt>
-                        <Name>Text</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <Types>
-                          <Type>string</Type>
-                        </Types>
-                        <Binding flavour="constant">
-                          <Type>string</Type>
-                          <Value>This hotel seems nice. Maybe I should talk to the clerk at the front desk.</Value>
-                        </Binding>
-                      </KnowIt>
-                    </Parameters>
-                  </CodeBlockReference>
-                </CodeBlocks>
-              </ScriptIt>
               <KnowIt>
                 <Name>The Player Character</Name>
                 <Visible>true</Visible>
