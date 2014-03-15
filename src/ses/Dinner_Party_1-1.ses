@@ -4,7 +4,7 @@
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
   <OptionalLibraries/>
-  <GameModule>C:\Games\NeverwinterNights\NWN\modules\ERC-Game-1.mod</GameModule>
+  <GameModule>C:\GOG Games\Neverwinter Nights Diamond Edition\modules\ERC-Game-1.mod</GameModule>
   <Dialogues/>
   <StartStoryPoint>
     <Name>Start</Name>
@@ -17115,7 +17115,7 @@
                                                                             </Types>
                                                                             <Binding flavour="constant">
                                                                               <Type>float</Type>
-                                                                              <Value>2.0</Value>
+                                                                              <Value>4.0</Value>
                                                                             </Binding>
                                                                           </KnowIt>
                                                                         </Parameters>
@@ -17349,7 +17349,7 @@
                                         </Types>
                                         <Binding flavour="constant">
                                           <Type>float</Type>
-                                          <Value>3.0</Value>
+                                          <Value>7.0</Value>
                                         </Binding>
                                       </KnowIt>
                                     </Parameters>

@@ -1,10 +1,10 @@
 <Story>
-  <Title>Descent 3</Title>
+  <Title>*Descent 3</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
   <OptionalLibraries/>
-  <GameModule>C:\Games\NeverwinterNights\NWN\modules\ERC-Descent-3.mod</GameModule>
+  <GameModule>C:\GOG Games\Neverwinter Nights Diamond Edition\modules\ERC-Descent-3.mod</GameModule>
   <Dialogues/>
   <StartStoryPoint>
     <Name>Start</Name>
@@ -3886,6 +3886,48 @@
                                   </ScriptIt>
                                 </Binding>
                               </KnowIt>
+                              <ScriptIt>
+                                <Name>&lt;Creature&gt; unequips &lt;Equipment&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels>
+                                  <Label>TODO</Label>
+                                </Labels>
+                                <Children/>
+                                <CodeBlocks>
+                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                    <Name>&lt;Creature&gt; unequips &lt;Equipment&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <TargetId>406</TargetId>
+                                    <Parameters>
+                                      <KnowIt>
+                                        <Name>Creature</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>creature</Type>
+                                        </Types>
+                                        <Binding flavour="reference">
+                                          <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt[2]"/>
+                                        </Binding>
+                                      </KnowIt>
+                                      <KnowIt>
+                                        <Name>Equipment</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>item</Type>
+                                        </Types>
+                                        <Binding flavour="resource">it_torch002.UTI</Binding>
+                                      </KnowIt>
+                                    </Parameters>
+                                  </CodeBlockReference>
+                                </CodeBlocks>
+                              </ScriptIt>
                               <KnowIt>
                                 <Name>Objects are Equal</Name>
                                 <Visible>true</Visible>

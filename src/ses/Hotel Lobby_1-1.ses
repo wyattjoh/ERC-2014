@@ -4,7 +4,7 @@
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
   <OptionalLibraries/>
-  <GameModule>C:\Games\NeverwinterNights\NWN\modules\Hotel Lobby.mod</GameModule>
+  <GameModule>C:\GOG Games\Neverwinter Nights Diamond Edition\modules\Hotel Lobby.mod</GameModule>
   <Dialogues/>
   <StartStoryPoint>
     <Name>Start</Name>
@@ -179,6 +179,36 @@
                   </ScriptIt>
                 </Binding>
               </KnowIt>
+              <ScriptIt>
+                <Name>Play &lt;Sound Object&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels>
+                  <Label>NOW</Label>
+                </Labels>
+                <Children/>
+                <CodeBlocks>
+                  <CodeBlockReference library="DefaultNWNLibrary">
+                    <Name>Play &lt;Sound Object&gt;</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <TargetId>161</TargetId>
+                    <Parameters>
+                      <KnowIt>
+                        <Name>Sound Object</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Types>
+                          <Type>sound</Type>
+                        </Types>
+                        <Binding flavour="resource">lobbymusic.UTS</Binding>
+                      </KnowIt>
+                    </Parameters>
+                  </CodeBlockReference>
+                </CodeBlocks>
+              </ScriptIt>
               <AskIt>
                 <Name>&lt;Question&gt;</Name>
                 <Visible>true</Visible>
@@ -1249,36 +1279,6 @@
                                   <Type>string</Type>
                                   <Value>What&apos;s Going on!!!</Value>
                                 </Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Finish Journal Record of &lt;Story Point&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Finish Journal Record of &lt;Story Point&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>469</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>Story Point</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>storyPoint</Type>
-                                </Types>
-                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt[2]/Children/KnowIt/Binding/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
