@@ -1,10 +1,10 @@
 <Story>
-  <Title>*GrandmaDead</Title>
+  <Title>*GrandmaFinale</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
   <OptionalLibraries/>
-  <GameModule>C:\Games\NeverwinterNights\NWN\modules\ERC-GrandmaRoomDeath.mod</GameModule>
+  <GameModule>C:\Games\NeverwinterNights\NWN\modules\ERC-GrandmaRoomFinale.mod</GameModule>
   <Dialogues/>
   <StartStoryPoint>
     <Name>Start</Name>
@@ -21,7 +21,7 @@
     </Children>
     <Successors>
       <StoryPoint>
-        <Name>Set-Up Scene</Name>
+        <Name>Setup</Name>
         <Visible>true</Visible>
         <Enabled>true</Enabled>
         <Labels/>
@@ -85,6 +85,52 @@
                     <Enabled>true</Enabled>
                     <Labels/>
                     <Children>
+                      <ScriptIt>
+                        <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>361</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Enable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>TRUE</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Disable</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>enable_disable</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>enable_disable</Type>
+                                  <Value>FALSE</Value>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
                       <ScriptIt>
                         <Name>Set the camera to &lt;Camera Mode&gt; mode</Name>
                         <Visible>true</Visible>
@@ -286,40 +332,6 @@
                                   <Type>item</Type>
                                   <Type>trigger</Type>
                                 </Types>
-                                <Binding flavour="resource">edith.UTC</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </ScriptIt>
-                      <ScriptIt>
-                        <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels>
-                          <Label>NOW</Label>
-                        </Labels>
-                        <Children/>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>412</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>The Object</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>creature</Type>
-                                  <Type>placeable</Type>
-                                  <Type>door</Type>
-                                  <Type>item</Type>
-                                  <Type>trigger</Type>
-                                </Types>
                                 <Binding flavour="resource">rose.UTC</Binding>
                               </KnowIt>
                             </Parameters>
@@ -404,70 +416,84 @@
                               </CodeBlockReference>
                             </CodeBlocks>
                           </ScriptIt>
-                          <ControlIt control="DELAY">
-                            <Name>After &lt;Number&gt; seconds</Name>
+                          <ScriptIt>
+                            <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
                             <Visible>true</Visible>
                             <Enabled>true</Enabled>
-                            <Labels/>
-                            <Children>
-                              <ScriptIt>
-                                <Name>Succeed &lt;Story Point&gt;</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels>
-                                  <Label>NOW</Label>
-                                </Labels>
-                                <Children/>
-                                <CodeBlocks>
-                                  <CodeBlockReference library="DefaultNWNLibrary">
-                                    <Name>Succeed &lt;Story Point&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <TargetId>432</TargetId>
-                                    <Parameters>
-                                      <KnowIt>
-                                        <Name>Story Point</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <Types>
-                                          <Type>storyPoint</Type>
-                                        </Types>
-                                        <Binding flavour="storyPoint">
-                                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
-                                        </Binding>
-                                      </KnowIt>
-                                    </Parameters>
-                                  </CodeBlockReference>
-                                </CodeBlocks>
-                              </ScriptIt>
-                            </Children>
+                            <Labels>
+                              <Label>NOW</Label>
+                            </Labels>
+                            <Children/>
                             <CodeBlocks>
                               <CodeBlockReference library="DefaultNWNLibrary">
-                                <Name>After &lt;Number&gt; seconds</Name>
+                                <Name>&lt;Enable&gt; cutscene mode with left-clicking &lt;Disable&gt;d</Name>
                                 <Visible>true</Visible>
                                 <Enabled>true</Enabled>
                                 <Labels/>
-                                <TargetId>575</TargetId>
+                                <TargetId>361</TargetId>
                                 <Parameters>
                                   <KnowIt>
-                                    <Name>Number</Name>
+                                    <Name>Enable</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
                                     <Labels/>
                                     <Types>
-                                      <Type>float</Type>
+                                      <Type>enable_disable</Type>
                                     </Types>
                                     <Binding flavour="constant">
-                                      <Type>float</Type>
-                                      <Value>30.0</Value>
+                                      <Type>enable_disable</Type>
+                                      <Value>FALSE</Value>
+                                    </Binding>
+                                  </KnowIt>
+                                  <KnowIt>
+                                    <Name>Disable</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>enable_disable</Type>
+                                    </Types>
+                                    <Binding flavour="constant">
+                                      <Type>enable_disable</Type>
+                                      <Value>TRUE</Value>
                                     </Binding>
                                   </KnowIt>
                                 </Parameters>
                               </CodeBlockReference>
                             </CodeBlocks>
-                          </ControlIt>
+                          </ScriptIt>
+                          <ScriptIt>
+                            <Name>Succeed &lt;Story Point&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels>
+                              <Label>NOW</Label>
+                            </Labels>
+                            <Children/>
+                            <CodeBlocks>
+                              <CodeBlockReference library="DefaultNWNLibrary">
+                                <Name>Succeed &lt;Story Point&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <TargetId>432</TargetId>
+                                <Parameters>
+                                  <KnowIt>
+                                    <Name>Story Point</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>storyPoint</Type>
+                                    </Types>
+                                    <Binding flavour="storyPoint">
+                                      <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                                    </Binding>
+                                  </KnowIt>
+                                </Parameters>
+                              </CodeBlockReference>
+                            </CodeBlocks>
+                          </ScriptIt>
                         </Children>
                         <CodeBlocks>
                           <CodeBlockReference library="DefaultNWNLibrary">
@@ -487,7 +513,7 @@
                                 </Types>
                                 <Binding flavour="constant">
                                   <Type>float</Type>
-                                  <Value>4.0</Value>
+                                  <Value>0.0</Value>
                                 </Binding>
                               </KnowIt>
                             </Parameters>
@@ -536,9 +562,7 @@
                     <Types>
                       <Type>storyPoint</Type>
                     </Types>
-                    <Binding flavour="storyPoint">
-                      <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
-                    </Binding>
+                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ControlIt/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                   </KnowIt>
                   <KnowIt>
                     <Name>subject</Name>
@@ -557,13 +581,13 @@
         </Children>
         <Successors>
           <StoryPoint>
-            <Name>End Scene</Name>
+            <Name>End</Name>
             <Visible>true</Visible>
             <Enabled>true</Enabled>
             <Labels/>
             <Children>
               <CauseIt>
-                <Name>When &lt;story point&gt; is activated</Name>
+                <Name>When &lt;subject&gt; is reached</Name>
                 <Visible>true</Visible>
                 <Enabled>true</Enabled>
                 <Labels/>
@@ -622,7 +646,7 @@
                         <Labels/>
                         <Children>
                           <ScriptIt>
-                            <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                            <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
                             <Visible>true</Visible>
                             <Enabled>true</Enabled>
                             <Labels>
@@ -631,29 +655,95 @@
                             <Children/>
                             <CodeBlocks>
                               <CodeBlockReference library="DefaultNWNLibrary">
-                                <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                                <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
                                 <Visible>true</Visible>
                                 <Enabled>true</Enabled>
                                 <Labels/>
-                                <TargetId>380</TargetId>
+                                <TargetId>412</TargetId>
                                 <Parameters>
                                   <KnowIt>
-                                    <Name>Module Name</Name>
+                                    <Name>The Object</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
                                     <Labels/>
                                     <Types>
-                                      <Type>string</Type>
+                                      <Type>creature</Type>
+                                      <Type>placeable</Type>
+                                      <Type>door</Type>
+                                      <Type>item</Type>
+                                      <Type>trigger</Type>
                                     </Types>
-                                    <Binding flavour="constant">
-                                      <Type>string</Type>
-                                      <Value>Hotel Lobby 4</Value>
-                                    </Binding>
+                                    <Binding flavour="resource">noblmale001.UTC</Binding>
                                   </KnowIt>
                                 </Parameters>
                               </CodeBlockReference>
                             </CodeBlocks>
                           </ScriptIt>
+                          <ControlIt control="DELAY">
+                            <Name>After &lt;Number&gt; seconds</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <Children>
+                              <ScriptIt>
+                                <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels>
+                                  <Label>NOW</Label>
+                                </Labels>
+                                <Children/>
+                                <CodeBlocks>
+                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                    <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <TargetId>380</TargetId>
+                                    <Parameters>
+                                      <KnowIt>
+                                        <Name>Module Name</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>string</Type>
+                                        </Types>
+                                        <Binding flavour="constant">
+                                          <Type>string</Type>
+                                          <Value>Hotel Lobby 4</Value>
+                                        </Binding>
+                                      </KnowIt>
+                                    </Parameters>
+                                  </CodeBlockReference>
+                                </CodeBlocks>
+                              </ScriptIt>
+                            </Children>
+                            <CodeBlocks>
+                              <CodeBlockReference library="DefaultNWNLibrary">
+                                <Name>After &lt;Number&gt; seconds</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <TargetId>575</TargetId>
+                                <Parameters>
+                                  <KnowIt>
+                                    <Name>Number</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>float</Type>
+                                    </Types>
+                                    <Binding flavour="constant">
+                                      <Type>float</Type>
+                                      <Value>4.0</Value>
+                                    </Binding>
+                                  </KnowIt>
+                                </Parameters>
+                              </CodeBlockReference>
+                            </CodeBlocks>
+                          </ControlIt>
                         </Children>
                       </StoryComponentContainer>
                       <StoryComponentContainer>
@@ -682,33 +772,21 @@
                 </Children>
                 <CodeBlocks>
                   <CodeBlockReference library="DefaultNWNLibrary">
-                    <Name>When &lt;story point&gt; is activated</Name>
+                    <Name>When &lt;subject&gt; is reached</Name>
                     <Visible>true</Visible>
                     <Enabled>true</Enabled>
                     <Labels/>
-                    <TargetId>141</TargetId>
+                    <TargetId>140</TargetId>
                     <Parameters>
-                      <KnowIt>
-                        <Name>story point</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <Types>
-                          <Type>storyPoint</Type>
-                        </Types>
-                        <Binding flavour="storyPoint">
-                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
-                        </Binding>
-                      </KnowIt>
                       <KnowIt>
                         <Name>subject</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
                         <Labels/>
                         <Types>
-                          <Type>module</Type>
+                          <Type>dialogue_line</Type>
                         </Types>
-                        <Binding flavour="automatic"/>
+                        <Binding flavour="resource">bear.DLG#0</Binding>
                       </KnowIt>
                     </Parameters>
                   </CodeBlockReference>
