@@ -1,0 +1,131 @@
+<Story>
+  <Title>Hallway</Title>
+  <Author>Ulvi</Author>
+  <Version>2.7</Version>
+  <Translator>Neverwinter Nights</Translator>
+  <OptionalLibraries/>
+  <GameModule>C:\Games\NeverwinterNights\NWN\modules\Hallway.mod</GameModule>
+  <Dialogues/>
+  <StartStoryPoint>
+    <Name>Start</Name>
+    <Visible>true</Visible>
+    <Enabled>true</Enabled>
+    <Labels/>
+    <Children>
+      <Note>
+        <Name>You can&apos;t put story components in here. Add a new story point instead!</Name>
+        <Visible>true</Visible>
+        <Enabled>true</Enabled>
+        <Labels/>
+      </Note>
+    </Children>
+    <Successors>
+      <StoryPoint>
+        <Name>Hallway</Name>
+        <Visible>true</Visible>
+        <Enabled>true</Enabled>
+        <Labels/>
+        <Children>
+          <CauseIt>
+            <Name>When &lt;subject&gt; is opened by &lt;last opener&gt;</Name>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <Labels/>
+            <Children>
+              <ScriptIt>
+                <Name>Succeed &lt;Story Point&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels>
+                  <Label>NOW</Label>
+                </Labels>
+                <Children/>
+                <CodeBlocks>
+                  <CodeBlockReference library="DefaultNWNLibrary">
+                    <Name>Succeed &lt;Story Point&gt;</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <TargetId>432</TargetId>
+                    <Parameters>
+                      <KnowIt>
+                        <Name>Story Point</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Types>
+                          <Type>storyPoint</Type>
+                        </Types>
+                        <Binding flavour="storyPoint">
+                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                        </Binding>
+                      </KnowIt>
+                    </Parameters>
+                  </CodeBlockReference>
+                </CodeBlocks>
+              </ScriptIt>
+              <ScriptIt>
+                <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels>
+                  <Label>NOW</Label>
+                </Labels>
+                <Children/>
+                <CodeBlocks>
+                  <CodeBlockReference library="DefaultNWNLibrary">
+                    <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <TargetId>380</TargetId>
+                    <Parameters>
+                      <KnowIt>
+                        <Name>Module Name</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Types>
+                          <Type>string</Type>
+                        </Types>
+                        <Binding flavour="constant">
+                          <Type>string</Type>
+                          <Value>Hotel Lobby 4</Value>
+                        </Binding>
+                      </KnowIt>
+                    </Parameters>
+                  </CodeBlockReference>
+                </CodeBlocks>
+              </ScriptIt>
+            </Children>
+            <CodeBlocks>
+              <CodeBlockReference library="DefaultNWNLibrary">
+                <Name>When &lt;subject&gt; is opened by &lt;last opener&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels/>
+                <TargetId>107</TargetId>
+                <Parameters>
+                  <KnowIt>
+                    <Name>subject</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Types>
+                      <Type>door</Type>
+                      <Type>placeable</Type>
+                    </Types>
+                    <Binding flavour="resource">from_hallway.UTD</Binding>
+                  </KnowIt>
+                </Parameters>
+              </CodeBlockReference>
+            </CodeBlocks>
+          </CauseIt>
+        </Children>
+        <Successors/>
+        <FanIn>1</FanIn>
+      </StoryPoint>
+    </Successors>
+    <FanIn>1</FanIn>
+  </StartStoryPoint>
+</Story>
