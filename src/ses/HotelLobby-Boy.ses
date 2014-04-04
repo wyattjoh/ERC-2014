@@ -1,0 +1,208 @@
+<Story>
+  <Title>HotelLobby-Boy</Title>
+  <Author></Author>
+  <Version>2.7</Version>
+  <Translator>Neverwinter Nights</Translator>
+  <OptionalLibraries/>
+  <GameModule>C:\Games\NeverwinterNights\NWN\modules\ERC-Hotel Lobby 3.mod</GameModule>
+  <Dialogues/>
+  <StartStoryPoint>
+    <Name>Start</Name>
+    <Visible>true</Visible>
+    <Enabled>true</Enabled>
+    <Labels/>
+    <Children>
+      <Note>
+        <Name>You can&apos;t put story components in here. Add a new story point instead!</Name>
+        <Visible>true</Visible>
+        <Enabled>true</Enabled>
+        <Labels/>
+      </Note>
+    </Children>
+    <Successors>
+      <StoryPoint>
+        <Name>Hotel</Name>
+        <Visible>true</Visible>
+        <Enabled>true</Enabled>
+        <Labels/>
+        <Children>
+          <CauseIt>
+            <Name>When &lt;subject&gt; is reached</Name>
+            <Visible>true</Visible>
+            <Enabled>true</Enabled>
+            <Labels/>
+            <Children>
+              <KnowIt>
+                <Name>Is Active</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels/>
+                <Types>
+                  <Type>question</Type>
+                </Types>
+                <Binding flavour="function">
+                  <ScriptIt>
+                    <Name>if &lt;Story Point&gt; is active</Name>
+                    <Visible>false</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Children/>
+                    <CodeBlocks>
+                      <CodeBlockReference library="DefaultNWNLibrary">
+                        <Name>if &lt;Story Point&gt; is active</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <TargetId>455</TargetId>
+                        <Parameters>
+                          <KnowIt>
+                            <Name>Story Point</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <Types>
+                              <Type>storyPoint</Type>
+                            </Types>
+                            <Binding flavour="storyPoint">
+                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint"/>
+                            </Binding>
+                          </KnowIt>
+                        </Parameters>
+                      </CodeBlockReference>
+                    </CodeBlocks>
+                  </ScriptIt>
+                </Binding>
+              </KnowIt>
+              <AskIt>
+                <Name>&lt;Question&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels/>
+                <Children>
+                  <StoryComponentContainer>
+                    <Name>Yes:</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Children>
+                      <ControlIt control="DELAY">
+                        <Name>After &lt;Number&gt; seconds</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Children>
+                          <ScriptIt>
+                            <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels>
+                              <Label>NOW</Label>
+                            </Labels>
+                            <Children/>
+                            <CodeBlocks>
+                              <CodeBlockReference library="DefaultNWNLibrary">
+                                <Name>Start new module with filename &lt;Module Name&gt;</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <TargetId>380</TargetId>
+                                <Parameters>
+                                  <KnowIt>
+                                    <Name>Module Name</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <Types>
+                                      <Type>string</Type>
+                                    </Types>
+                                    <Binding flavour="constant">
+                                      <Type>string</Type>
+                                      <Value>ERC-Descent</Value>
+                                    </Binding>
+                                  </KnowIt>
+                                </Parameters>
+                              </CodeBlockReference>
+                            </CodeBlocks>
+                          </ScriptIt>
+                        </Children>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>After &lt;Number&gt; seconds</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>575</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Number</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>float</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>float</Type>
+                                  <Value>5.0</Value>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ControlIt>
+                    </Children>
+                  </StoryComponentContainer>
+                  <StoryComponentContainer>
+                    <Name>No:</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Children/>
+                  </StoryComponentContainer>
+                </Children>
+                <Condition>
+                  <KnowIt>
+                    <Name>Question</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Types>
+                      <Type>question</Type>
+                    </Types>
+                    <Binding flavour="reference">
+                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt"/>
+                    </Binding>
+                  </KnowIt>
+                </Condition>
+              </AskIt>
+            </Children>
+            <CodeBlocks>
+              <CodeBlockReference library="DefaultNWNLibrary">
+                <Name>When &lt;subject&gt; is reached</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels/>
+                <TargetId>140</TargetId>
+                <Parameters>
+                  <KnowIt>
+                    <Name>subject</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <Types>
+                      <Type>dialogue_line</Type>
+                    </Types>
+                    <Binding flavour="resource">kg_convo.DLG#0&gt;0&gt;0</Binding>
+                  </KnowIt>
+                </Parameters>
+              </CodeBlockReference>
+            </CodeBlocks>
+          </CauseIt>
+        </Children>
+        <Successors/>
+        <FanIn>1</FanIn>
+      </StoryPoint>
+    </Successors>
+    <FanIn>1</FanIn>
+  </StartStoryPoint>
+</Story>
