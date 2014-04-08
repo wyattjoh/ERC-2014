@@ -51,7 +51,7 @@ Files for Installation:
 	3) Move .bic files into 'C:\Games\NeverwinterNights\NWN\localvault'
 		a) gideonde'marsh.bic
 
-	4) Move movies (.bik files) into 'C:\Games\NeverwinterNights\NWN\localvault
+	4) Move movies (.bik files) into 'C:\Games\NeverwinterNights\NWN\movies'
 		a) Intro.bik
 		b) Outro (Good).bik
 		c) Outro (Bad).bik
