@@ -686,6 +686,96 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">boy_didyouseeit.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">boy_teddy.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Stop &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Stop &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>577</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">b_did_you_see.UTS</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>Succeed &lt;Story Point&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -1298,66 +1388,6 @@
                             <Enabled>true</Enabled>
                             <Labels/>
                             <Children>
-                              <ScriptIt>
-                                <Name>&lt;Speaker&gt; speaks &lt;Text&gt; at &lt;Volume&gt; volume</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels>
-                                  <Label>TODO</Label>
-                                </Labels>
-                                <Children/>
-                                <CodeBlocks>
-                                  <CodeBlockReference library="DefaultNWNLibrary">
-                                    <Name>&lt;Speaker&gt; speaks &lt;Text&gt; at &lt;Volume&gt; volume</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <TargetId>184</TargetId>
-                                    <Parameters>
-                                      <KnowIt>
-                                        <Name>Speaker</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <Types>
-                                          <Type>creature</Type>
-                                          <Type>placeable</Type>
-                                          <Type>door</Type>
-                                          <Type>item</Type>
-                                          <Type>trigger</Type>
-                                        </Types>
-                                        <Binding flavour="resource">noblmale001.UTC</Binding>
-                                      </KnowIt>
-                                      <KnowIt>
-                                        <Name>Volume</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <Types>
-                                          <Type>talk_volume</Type>
-                                        </Types>
-                                        <Binding flavour="constant">
-                                          <Type>talk_volume</Type>
-                                          <Value>TALKVOLUME_TALK</Value>
-                                        </Binding>
-                                      </KnowIt>
-                                      <KnowIt>
-                                        <Name>Text</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <Types>
-                                          <Type>string</Type>
-                                        </Types>
-                                        <Binding flavour="constant">
-                                          <Type>string</Type>
-                                          <Value>I&apos;m not feeling very well...</Value>
-                                        </Binding>
-                                      </KnowIt>
-                                    </Parameters>
-                                  </CodeBlockReference>
-                                </CodeBlocks>
-                              </ScriptIt>
                               <KnowIt>
                                 <Name>Check on Teddy</Name>
                                 <Visible>true</Visible>
@@ -1647,12 +1677,72 @@
                                       </CodeBlockReference>
                                     </CodeBlocks>
                                   </ScriptIt>
+                                  <ScriptIt>
+                                    <Name>Play &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Play &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>161</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[22]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
                                   <ControlIt control="DELAY">
                                     <Name>After &lt;Number&gt; seconds</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
                                     <Labels/>
                                     <Children>
+                                      <ScriptIt>
+                                        <Name>Stop &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels>
+                                          <Label>NOW</Label>
+                                        </Labels>
+                                        <Children/>
+                                        <CodeBlocks>
+                                          <CodeBlockReference library="DefaultNWNLibrary">
+                                            <Name>Stop &lt;Sound Object&gt;</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <TargetId>577</TargetId>
+                                            <Parameters>
+                                              <KnowIt>
+                                                <Name>Sound Object</Name>
+                                                <Visible>true</Visible>
+                                                <Enabled>true</Enabled>
+                                                <Labels/>
+                                                <Types>
+                                                  <Type>sound</Type>
+                                                </Types>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[22]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                              </KnowIt>
+                                            </Parameters>
+                                          </CodeBlockReference>
+                                        </CodeBlocks>
+                                      </ScriptIt>
                                       <KnowIt>
                                         <Name>Talk to Gideon Location</Name>
                                         <Visible>true</Visible>
@@ -4986,7 +5076,7 @@
                 </Children>
                 <Successors>
                   <StoryPoint>
-                    <Name>Badger Conversation</Name>
+                    <Name>Lion Conversation</Name>
                     <Visible>true</Visible>
                     <Enabled>true</Enabled>
                     <Labels/>
@@ -5051,66 +5141,6 @@
                                 <Labels/>
                                 <Children>
                                   <ScriptIt>
-                                    <Name>Stop &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Stop &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>577</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">b_4.UTS</Binding>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                  <ScriptIt>
-                                    <Name>Play &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Play &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>161</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">b_5.UTS</Binding>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                  <ScriptIt>
                                     <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
@@ -5147,7 +5177,7 @@
                                             <Types>
                                               <Type>dialogue_line</Type>
                                             </Types>
-                                            <Binding flavour="resource">badger.DLG#1</Binding>
+                                            <Binding flavour="resource">lion.DLG#1</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -5184,7 +5214,9 @@
                                             <Types>
                                               <Type>storyPoint</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                            <Binding flavour="storyPoint">
+                                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
+                                            </Binding>
                                           </KnowIt>
                                           <KnowIt>
                                             <Name>Text</Name>
@@ -5196,8 +5228,68 @@
                                             </Types>
                                             <Binding flavour="constant">
                                               <Type>string</Type>
-                                              <Value>Badger said that he ate the Vegitable Hash first... Fried Tomatos... The he left for a few moments. When he came back in, he saw Teddy eating Baked Pears.</Value>
+                                              <Value>Lion said that Teddy ate the Vegitable Hash first... Then she stopped paying attention. Then later Teddy ate Cabbage Salad, then the Baked Pears.</Value>
                                             </Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
+                                    <Name>Stop &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Stop &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>577</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding flavour="resource">l_3.UTS</Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
+                                    <Name>Play &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Play &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>161</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding flavour="resource">l_4.UTS</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -5245,7 +5337,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">badger.DLG#1&gt;0&gt;0&gt;0&gt;0</Binding>
+                                <Binding flavour="resource">lion.DLG#1&gt;0&gt;0&gt;0&gt;0</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -5334,7 +5426,7 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                            <Binding flavour="resource">l_3.UTS</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -5382,7 +5474,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">badger.DLG#1</Binding>
+                                <Binding flavour="resource">lion.DLG#1</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -5471,7 +5563,7 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -5501,174 +5593,7 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                </Children>
-                              </StoryComponentContainer>
-                              <StoryComponentContainer>
-                                <Name>No:</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Children/>
-                              </StoryComponentContainer>
-                            </Children>
-                            <Condition>
-                              <KnowIt>
-                                <Name>Question</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>question</Type>
-                                </Types>
-                                <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[3]/Children/KnowIt"/>
-                                </Binding>
-                              </KnowIt>
-                            </Condition>
-                          </AskIt>
-                        </Children>
-                        <CodeBlocks>
-                          <CodeBlockReference library="DefaultNWNLibrary">
-                            <Name>When &lt;subject&gt; is reached</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <TargetId>140</TargetId>
-                            <Parameters>
-                              <KnowIt>
-                                <Name>subject</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Types>
-                                  <Type>dialogue_line</Type>
-                                </Types>
-                                <Binding flavour="resource">badger.DLG#1&gt;0&gt;0</Binding>
-                              </KnowIt>
-                            </Parameters>
-                          </CodeBlockReference>
-                        </CodeBlocks>
-                      </CauseIt>
-                      <CauseIt>
-                        <Name>When &lt;subject&gt; is reached</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <Children>
-                          <KnowIt>
-                            <Name>Is Active</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <Types>
-                              <Type>question</Type>
-                            </Types>
-                            <Binding flavour="function">
-                              <ScriptIt>
-                                <Name>if &lt;Story Point&gt; is active</Name>
-                                <Visible>false</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Children/>
-                                <CodeBlocks>
-                                  <CodeBlockReference library="DefaultNWNLibrary">
-                                    <Name>if &lt;Story Point&gt; is active</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <TargetId>455</TargetId>
-                                    <Parameters>
-                                      <KnowIt>
-                                        <Name>Story Point</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <Types>
-                                          <Type>storyPoint</Type>
-                                        </Types>
-                                        <Binding flavour="storyPoint">
-                                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
-                                        </Binding>
-                                      </KnowIt>
-                                    </Parameters>
-                                  </CodeBlockReference>
-                                </CodeBlocks>
-                              </ScriptIt>
-                            </Binding>
-                          </KnowIt>
-                          <AskIt>
-                            <Name>&lt;Question&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels/>
-                            <Children>
-                              <StoryComponentContainer>
-                                <Name>Yes:</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <Children>
-                                  <ScriptIt>
-                                    <Name>Stop &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Stop &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>577</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">b_5.UTS</Binding>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                  <ScriptIt>
-                                    <Name>Play &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Play &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>161</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">b_7.UTS</Binding>
+                                            <Binding flavour="resource">l_5.UTS</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -5704,7 +5629,7 @@
                                                 <Types>
                                                   <Type>sound</Type>
                                                 </Types>
-                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[3]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                               </KnowIt>
                                             </Parameters>
                                           </CodeBlockReference>
@@ -5788,7 +5713,7 @@
                                   <Type>question</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/KnowIt"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[3]/Children/KnowIt"/>
                                 </Binding>
                               </KnowIt>
                             </Condition>
@@ -5810,7 +5735,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">badger.DLG#2&gt;0&gt;0</Binding>
+                                <Binding flavour="resource">lion.DLG#1&gt;0&gt;0&gt;0&gt;0&gt;0&gt;0</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -15777,7 +15702,7 @@
                                                 <Types>
                                                   <Type>sound</Type>
                                                 </Types>
-                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                <Binding flavour="resource">b_7.UTS</Binding>
                                               </KnowIt>
                                             </Parameters>
                                           </CodeBlockReference>
@@ -15813,7 +15738,7 @@
                                                     <Types>
                                                       <Type>sound</Type>
                                                     </Types>
-                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[4]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                                   </KnowIt>
                                                 </Parameters>
                                               </CodeBlockReference>
@@ -15887,7 +15812,7 @@
                                     <Types>
                                       <Type>dialogue_line</Type>
                                     </Types>
-                                    <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                    <Binding flavour="resource">badger.DLG#2&gt;0&gt;0</Binding>
                                   </KnowIt>
                                 </Parameters>
                               </CodeBlockReference>
@@ -16879,7 +16804,7 @@
                   </StoryPoint>
                   <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/ScriptIt/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding/StoryPoint"/>
                   <StoryPoint>
-                    <Name>Lion Conversation</Name>
+                    <Name>Badger Conversation</Name>
                     <Visible>true</Visible>
                     <Enabled>true</Enabled>
                     <Labels/>
@@ -16944,6 +16869,66 @@
                                 <Labels/>
                                 <Children>
                                   <ScriptIt>
+                                    <Name>Stop &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Stop &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>577</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding flavour="resource">b_4.UTS</Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
+                                    <Name>Play &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Play &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>161</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding flavour="resource">b_5.UTS</Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
                                     <Name>&lt;Enable&gt; &lt;dialogue line&gt;</Name>
                                     <Visible>true</Visible>
                                     <Enabled>true</Enabled>
@@ -16980,7 +16965,7 @@
                                             <Types>
                                               <Type>dialogue_line</Type>
                                             </Types>
-                                            <Binding flavour="resource">lion.DLG#1</Binding>
+                                            <Binding flavour="resource">badger.DLG#1</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -17017,9 +17002,7 @@
                                             <Types>
                                               <Type>storyPoint</Type>
                                             </Types>
-                                            <Binding flavour="storyPoint">
-                                              <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint"/>
-                                            </Binding>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[7]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                           </KnowIt>
                                           <KnowIt>
                                             <Name>Text</Name>
@@ -17031,68 +17014,8 @@
                                             </Types>
                                             <Binding flavour="constant">
                                               <Type>string</Type>
-                                              <Value>Lion said that Teddy ate the Vegitable Hash first... Then she stopped paying attention. Then later Teddy ate Cabbage Salad, then the Baked Pears.</Value>
+                                              <Value>Badger said that he ate the Vegitable Hash first... Fried Tomatos... The he left for a few moments. When he came back in, he saw Teddy eating Baked Pears.</Value>
                                             </Binding>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                  <ScriptIt>
-                                    <Name>Stop &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Stop &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>577</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">l_3.UTS</Binding>
-                                          </KnowIt>
-                                        </Parameters>
-                                      </CodeBlockReference>
-                                    </CodeBlocks>
-                                  </ScriptIt>
-                                  <ScriptIt>
-                                    <Name>Play &lt;Sound Object&gt;</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels>
-                                      <Label>NOW</Label>
-                                    </Labels>
-                                    <Children/>
-                                    <CodeBlocks>
-                                      <CodeBlockReference library="DefaultNWNLibrary">
-                                        <Name>Play &lt;Sound Object&gt;</Name>
-                                        <Visible>true</Visible>
-                                        <Enabled>true</Enabled>
-                                        <Labels/>
-                                        <TargetId>161</TargetId>
-                                        <Parameters>
-                                          <KnowIt>
-                                            <Name>Sound Object</Name>
-                                            <Visible>true</Visible>
-                                            <Enabled>true</Enabled>
-                                            <Labels/>
-                                            <Types>
-                                              <Type>sound</Type>
-                                            </Types>
-                                            <Binding flavour="resource">l_4.UTS</Binding>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -17140,7 +17063,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">lion.DLG#1&gt;0&gt;0&gt;0&gt;0</Binding>
+                                <Binding flavour="resource">badger.DLG#1&gt;0&gt;0&gt;0&gt;0</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -17229,7 +17152,7 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding flavour="resource">l_3.UTS</Binding>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -17277,7 +17200,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">lion.DLG#1</Binding>
+                                <Binding flavour="resource">badger.DLG#1</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
@@ -17366,7 +17289,7 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[3]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -17396,7 +17319,174 @@
                                             <Types>
                                               <Type>sound</Type>
                                             </Types>
-                                            <Binding flavour="resource">l_5.UTS</Binding>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Children/CauseIt/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[4]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                </Children>
+                              </StoryComponentContainer>
+                              <StoryComponentContainer>
+                                <Name>No:</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Children/>
+                              </StoryComponentContainer>
+                            </Children>
+                            <Condition>
+                              <KnowIt>
+                                <Name>Question</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>question</Type>
+                                </Types>
+                                <Binding flavour="reference">
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]/Children/CauseIt[3]/Children/KnowIt"/>
+                                </Binding>
+                              </KnowIt>
+                            </Condition>
+                          </AskIt>
+                        </Children>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>When &lt;subject&gt; is reached</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>140</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>subject</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>dialogue_line</Type>
+                                </Types>
+                                <Binding flavour="resource">badger.DLG#1&gt;0&gt;0</Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </CauseIt>
+                      <CauseIt>
+                        <Name>When &lt;subject&gt; is reached</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Children>
+                          <KnowIt>
+                            <Name>Is Active</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <Types>
+                              <Type>question</Type>
+                            </Types>
+                            <Binding flavour="function">
+                              <ScriptIt>
+                                <Name>if &lt;Story Point&gt; is active</Name>
+                                <Visible>false</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Children/>
+                                <CodeBlocks>
+                                  <CodeBlockReference library="DefaultNWNLibrary">
+                                    <Name>if &lt;Story Point&gt; is active</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels/>
+                                    <TargetId>455</TargetId>
+                                    <Parameters>
+                                      <KnowIt>
+                                        <Name>Story Point</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <Types>
+                                          <Type>storyPoint</Type>
+                                        </Types>
+                                        <Binding flavour="storyPoint">
+                                          <StoryPoint reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]"/>
+                                        </Binding>
+                                      </KnowIt>
+                                    </Parameters>
+                                  </CodeBlockReference>
+                                </CodeBlocks>
+                              </ScriptIt>
+                            </Binding>
+                          </KnowIt>
+                          <AskIt>
+                            <Name>&lt;Question&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <Children>
+                              <StoryComponentContainer>
+                                <Name>Yes:</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Children>
+                                  <ScriptIt>
+                                    <Name>Stop &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Stop &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>577</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding flavour="resource">b_5.UTS</Binding>
+                                          </KnowIt>
+                                        </Parameters>
+                                      </CodeBlockReference>
+                                    </CodeBlocks>
+                                  </ScriptIt>
+                                  <ScriptIt>
+                                    <Name>Play &lt;Sound Object&gt;</Name>
+                                    <Visible>true</Visible>
+                                    <Enabled>true</Enabled>
+                                    <Labels>
+                                      <Label>NOW</Label>
+                                    </Labels>
+                                    <Children/>
+                                    <CodeBlocks>
+                                      <CodeBlockReference library="DefaultNWNLibrary">
+                                        <Name>Play &lt;Sound Object&gt;</Name>
+                                        <Visible>true</Visible>
+                                        <Enabled>true</Enabled>
+                                        <Labels/>
+                                        <TargetId>161</TargetId>
+                                        <Parameters>
+                                          <KnowIt>
+                                            <Name>Sound Object</Name>
+                                            <Visible>true</Visible>
+                                            <Enabled>true</Enabled>
+                                            <Labels/>
+                                            <Types>
+                                              <Type>sound</Type>
+                                            </Types>
+                                            <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                           </KnowIt>
                                         </Parameters>
                                       </CodeBlockReference>
@@ -17432,7 +17522,7 @@
                                                 <Types>
                                                   <Type>sound</Type>
                                                 </Types>
-                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]/Children/CauseIt[3]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
+                                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[10]/Children/AskIt/Children/StoryComponentContainer/Children/ScriptIt[2]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                                               </KnowIt>
                                             </Parameters>
                                           </CodeBlockReference>
@@ -17516,7 +17606,7 @@
                                   <Type>question</Type>
                                 </Types>
                                 <Binding flavour="reference">
-                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]/Children/CauseIt[3]/Children/KnowIt"/>
+                                  <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint[3]/Children/CauseIt[4]/Children/KnowIt"/>
                                 </Binding>
                               </KnowIt>
                             </Condition>
@@ -17538,7 +17628,7 @@
                                 <Types>
                                   <Type>dialogue_line</Type>
                                 </Types>
-                                <Binding flavour="resource">lion.DLG#1&gt;0&gt;0&gt;0&gt;0&gt;0&gt;0</Binding>
+                                <Binding reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt[10]/CodeBlocks/CodeBlockReference/Parameters/KnowIt/Binding"/>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
