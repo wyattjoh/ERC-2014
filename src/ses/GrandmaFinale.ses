@@ -645,40 +645,6 @@
                         <Enabled>true</Enabled>
                         <Labels/>
                         <Children>
-                          <ScriptIt>
-                            <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels>
-                              <Label>NOW</Label>
-                            </Labels>
-                            <Children/>
-                            <CodeBlocks>
-                              <CodeBlockReference library="DefaultNWNLibrary">
-                                <Name>Apply the death effect to all objects with the same tag as &lt;The Object&gt;</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <TargetId>412</TargetId>
-                                <Parameters>
-                                  <KnowIt>
-                                    <Name>The Object</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <Types>
-                                      <Type>creature</Type>
-                                      <Type>placeable</Type>
-                                      <Type>door</Type>
-                                      <Type>item</Type>
-                                      <Type>trigger</Type>
-                                    </Types>
-                                    <Binding flavour="resource">noblmale001.UTC</Binding>
-                                  </KnowIt>
-                                </Parameters>
-                              </CodeBlockReference>
-                            </CodeBlocks>
-                          </ScriptIt>
                           <ControlIt control="DELAY">
                             <Name>After &lt;Number&gt; seconds</Name>
                             <Visible>true</Visible>
@@ -737,7 +703,7 @@
                                     </Types>
                                     <Binding flavour="constant">
                                       <Type>float</Type>
-                                      <Value>4.0</Value>
+                                      <Value>1.0</Value>
                                     </Binding>
                                   </KnowIt>
                                 </Parameters>
