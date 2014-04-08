@@ -206,6 +206,78 @@
                         </CodeBlocks>
                       </ScriptIt>
                       <ScriptIt>
+                        <Name>Face the camera &lt;Direction&gt; degrees from the East and &lt;Distance&gt; metres from the character at a &lt;Pitch&gt; degree angle with &lt;Transition Type&gt; transition</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Face the camera &lt;Direction&gt; degrees from the East and &lt;Distance&gt; metres from the character at a &lt;Pitch&gt; degree angle with &lt;Transition Type&gt; transition</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>379</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Direction</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>float</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>float</Type>
+                                  <Value>90.0</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Distance</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>float</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>float</Type>
+                                  <Value>15.0</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Pitch</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>float</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>float</Type>
+                                  <Value>45.0</Value>
+                                </Binding>
+                              </KnowIt>
+                              <KnowIt>
+                                <Name>Transition Type</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>camera_transition</Type>
+                                </Types>
+                                <Binding flavour="constant">
+                                  <Type>camera_transition</Type>
+                                  <Value>CAMERA_TRANSITION_TYPE_SNAP</Value>
+                                </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
                         <Name>Succeed &lt;Story Point&gt;</Name>
                         <Visible>true</Visible>
                         <Enabled>true</Enabled>
@@ -969,7 +1041,7 @@
                                         </Types>
                                         <Binding flavour="constant">
                                           <Type>string</Type>
-                                          <Value>ERC-Descent</Value>
+                                          <Value>ERC-KidsTeaParty</Value>
                                         </Binding>
                                       </KnowIt>
                                     </Parameters>
