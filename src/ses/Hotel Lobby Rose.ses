@@ -73,36 +73,6 @@
                   </ScriptIt>
                 </Binding>
               </KnowIt>
-              <ScriptIt>
-                <Name>Play &lt;Sound Object&gt;</Name>
-                <Visible>true</Visible>
-                <Enabled>true</Enabled>
-                <Labels>
-                  <Label>NOW</Label>
-                </Labels>
-                <Children/>
-                <CodeBlocks>
-                  <CodeBlockReference library="DefaultNWNLibrary">
-                    <Name>Play &lt;Sound Object&gt;</Name>
-                    <Visible>true</Visible>
-                    <Enabled>true</Enabled>
-                    <Labels/>
-                    <TargetId>161</TargetId>
-                    <Parameters>
-                      <KnowIt>
-                        <Name>Sound Object</Name>
-                        <Visible>true</Visible>
-                        <Enabled>true</Enabled>
-                        <Labels/>
-                        <Types>
-                          <Type>sound</Type>
-                        </Types>
-                        <Binding flavour="resource">hotellobby.UTS</Binding>
-                      </KnowIt>
-                    </Parameters>
-                  </CodeBlockReference>
-                </CodeBlocks>
-              </ScriptIt>
               <AskIt>
                 <Name>&lt;Question&gt;</Name>
                 <Visible>true</Visible>
@@ -651,6 +621,36 @@
                     </Binding>
                   </KnowIt>
                   <ScriptIt>
+                    <Name>Play &lt;Sound Object&gt;</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels>
+                      <Label>NOW</Label>
+                    </Labels>
+                    <Children/>
+                    <CodeBlocks>
+                      <CodeBlockReference library="DefaultNWNLibrary">
+                        <Name>Play &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <TargetId>161</TargetId>
+                        <Parameters>
+                          <KnowIt>
+                            <Name>Sound Object</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <Types>
+                              <Type>sound</Type>
+                            </Types>
+                            <Binding flavour="resource">hotellobby.UTS</Binding>
+                          </KnowIt>
+                        </Parameters>
+                      </CodeBlockReference>
+                    </CodeBlocks>
+                  </ScriptIt>
+                  <ScriptIt>
                     <Name>Add Journal Record for &lt;Story Point&gt;</Name>
                     <Visible>true</Visible>
                     <Enabled>true</Enabled>
@@ -818,62 +818,6 @@
                                 <Enabled>true</Enabled>
                                 <Labels/>
                                 <TargetId>431</TargetId>
-                              </CodeBlockReference>
-                            </CodeBlocks>
-                          </ScriptIt>
-                          <ScriptIt>
-                            <Name>&lt;Starter&gt; starts &lt;Conversation&gt; with &lt;Partner&gt;</Name>
-                            <Visible>true</Visible>
-                            <Enabled>true</Enabled>
-                            <Labels>
-                              <Label>TODO</Label>
-                            </Labels>
-                            <Children/>
-                            <CodeBlocks>
-                              <CodeBlockReference library="DefaultNWNLibrary">
-                                <Name>&lt;Starter&gt; starts &lt;Conversation&gt; with &lt;Partner&gt;</Name>
-                                <Visible>true</Visible>
-                                <Enabled>true</Enabled>
-                                <Labels/>
-                                <TargetId>377</TargetId>
-                                <Parameters>
-                                  <KnowIt>
-                                    <Name>Starter</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <Types>
-                                      <Type>creature</Type>
-                                      <Type>door</Type>
-                                      <Type>placeable</Type>
-                                    </Types>
-                                    <Binding flavour="reference">
-                                      <KnowIt reference="/Story/StartStoryPoint/Successors/StoryPoint/Successors/StoryPoint/Children/CauseIt/Children/KnowIt[2]"/>
-                                    </Binding>
-                                  </KnowIt>
-                                  <KnowIt>
-                                    <Name>Conversation</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <Types>
-                                      <Type>dialogue</Type>
-                                    </Types>
-                                    <Binding flavour="resource">host_convo.DLG</Binding>
-                                  </KnowIt>
-                                  <KnowIt>
-                                    <Name>Partner</Name>
-                                    <Visible>true</Visible>
-                                    <Enabled>true</Enabled>
-                                    <Labels/>
-                                    <Types>
-                                      <Type>creature</Type>
-                                      <Type>door</Type>
-                                      <Type>placeable</Type>
-                                    </Types>
-                                    <Binding flavour="resource">host.UTC</Binding>
-                                  </KnowIt>
-                                </Parameters>
                               </CodeBlockReference>
                             </CodeBlocks>
                           </ScriptIt>

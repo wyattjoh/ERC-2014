@@ -1,30 +1,61 @@
-Installation:
+Game Name: Hotel Menzrai
+Team Name: Edible Rock Collective
+Team Members:
+	EP: 		Evan Matchett
+	Producer: 	Chris Schulz
+	Lead Designer: 	Andrew Michael
+	Writer:		Ross Cockburn
+	Artist:		Katherine Jasniewski
+	Programmer:	Wyatt Johnson
+			Ulvi Ibrahimov
+
+Files for Installation:
 
 	1) Move Mod files into 'C:\Games\NeverwinterNights\NWN\modules'
-    		a) Hotel Lobby.mod
-		b) ERC-Game-0.mod
-		C) ERC-Game-1.mod
-		d) ERC-Descent.mod
+    		a) Basement.mod
+		b) ERC-Courtyard.mod
+		C) ERC-Descent.mod
+		d) ERC-Descent-2.mod
 		e) ERC-Descent-2.mod
-		f) ERC-Descent-3.mod
-		g) Ascent.mod
+		f) ERC-Game-0.mod
+		g) ERC-GrandmaRoom.mod
+		h) ERC-GrandmaRoomFinale.mod
+		i) ERC-Hotel Lobby 1.mod
+		j) ERC-Hotel Lobby 3.mod
+		k) ERC-KidsTeaParty.mod
+		l) Hallway.mod
+		m) Hotel Lobby 2.mod
+		n) Hotel Lobby 4.mod
+		o) Hotel Lobby Ascent.mod
+		
 
 	2) Move hak packs into 'C:\Games\NeverwinterNights\NWN\hak'
-		a) RL_gothic_int.hak
-		b) RL_gothic_estates.hak
-		c) RL_gothicgarden.hak
-		d) ls_portraits.hak
-		e) ERC-SoundPack.hak
-		f) Mdrn_cloth_vol_1.hak
-		g) LisasClothes168.hak
-		h) alva_children.hak
-		i) JXP_Placeables.hak
-		j) lavamountains.hak
-
-	3) Move playable character models into 'C:\Games\NeverwinterNights\NWN\localvault'
+		a) alva_children.hak
+		b) CourtyardCut.hak
+		c) JXP_Placeables.hak
+		d) Lavamountains.hak
+		e) LisasClothes168.hak
+		f) ls_portraits.hak
+		g) Mdrn_cloth_vol_1.hak
+		h) RL_gothic_int.hak
+		i) RL_gothic_estates.hak
+		j) RL_gothicgarden.hak
+		k) CourtyardGame.hak
+		l) Descent.hak
+		m) GrandmaRoomSound.hak
+		n) HotelSound1.hak
+		o) HotelSound2.hak
+		p) HotelSound3.hak
+		q) HotelSound4.hak
+	
+	3) Move .bic files into 'C:\Games\NeverwinterNights\NWN\localvault'
 		a) gideonde'marsh.bic
 
-
+	4) Move movies (.bik files) into 'C:\Games\NeverwinterNights\NWN\localvault
+		a) Intro.bik
+		b) Outro (Good).bik
+		c) Outro (Bad).bik
+		d) firestarter.bik
 
 Run the application:
 
@@ -32,10 +63,11 @@ Run the application:
 	2) Select 'Play'
 	3) Select 'New'
 	4) Select 'Other modules...'
-	5) Select 'Hotel Lobby'
+	5) Select 'ERC-Hotel Lobby 1.mod'
 	6) Select 'Load'
 	7) Select 'Select Premade Character'
-	8) Select 'Gideon de'Marsh(1)'
+	8) Select 'Gideon de'Marsh'
 	9) Select 'Play'
+
 
 Enjoy!
