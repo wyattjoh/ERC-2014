@@ -65,6 +65,39 @@
                 </CodeBlocks>
               </ScriptIt>
               <ScriptIt>
+                <Name>Set Player Character&apos;s camera mode to &lt;Camera Mode&gt;</Name>
+                <Visible>true</Visible>
+                <Enabled>true</Enabled>
+                <Labels>
+                  <Label>NOW</Label>
+                </Labels>
+                <Children/>
+                <CodeBlocks>
+                  <CodeBlockReference library="DefaultNWNLibrary">
+                    <Name>Set Player Character&apos;s camera mode to &lt;Camera Mode&gt;</Name>
+                    <Visible>true</Visible>
+                    <Enabled>true</Enabled>
+                    <Labels/>
+                    <TargetId>358</TargetId>
+                    <Parameters>
+                      <KnowIt>
+                        <Name>Camera Mode</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels/>
+                        <Types>
+                          <Type>camera_mode</Type>
+                        </Types>
+                        <Binding flavour="constant">
+                          <Type>camera_mode</Type>
+                          <Value>CAMERA_MODE_STIFF_CHASE_CAMERA</Value>
+                        </Binding>
+                      </KnowIt>
+                    </Parameters>
+                  </CodeBlockReference>
+                </CodeBlocks>
+              </ScriptIt>
+              <ScriptIt>
                 <Name>Start new module with filename &lt;Module Name&gt;</Name>
                 <Visible>true</Visible>
                 <Enabled>true</Enabled>
