@@ -59,6 +59,8 @@ Files for Installation:
 		c) Outro Bad Final.bik
 		d) Firestarter Final.bik
 		e) Panorama_1 Final.bik
+		f) Panorama_2 Final.bik
+		g) Panorama_3 Final.bik
 
 Run the application:
 
