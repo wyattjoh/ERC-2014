@@ -1,5 +1,5 @@
 <Story>
-  <Title>Hallway</Title>
+  <Title>*Hallway</Title>
   <Author>Ulvi</Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -90,7 +90,7 @@
                         </Types>
                         <Binding flavour="constant">
                           <Type>string</Type>
-                          <Value>Hotel Lobby 4</Value>
+                          <Value>ERC-GrandmaRoomFinale</Value>
                         </Binding>
                       </KnowIt>
                     </Parameters>
