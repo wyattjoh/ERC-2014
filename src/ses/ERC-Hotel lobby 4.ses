@@ -734,7 +734,7 @@
                                     </Types>
                                     <Binding flavour="constant">
                                       <Type>string</Type>
-                                      <Value>Outro (Good)</Value>
+                                      <Value>Outro Good Final</Value>
                                     </Binding>
                                   </KnowIt>
                                   <KnowIt>
@@ -887,7 +887,7 @@
                                     </Types>
                                     <Binding flavour="constant">
                                       <Type>string</Type>
-                                      <Value>Outro (Bad)</Value>
+                                      <Value>Outro BadFinal</Value>
                                     </Binding>
                                   </KnowIt>
                                   <KnowIt>
@@ -1040,7 +1040,7 @@
                                     </Types>
                                     <Binding flavour="constant">
                                       <Type>string</Type>
-                                      <Value>Outro (Good)</Value>
+                                      <Value>Outro Good Final</Value>
                                     </Binding>
                                   </KnowIt>
                                   <KnowIt>
