@@ -1,5 +1,5 @@
 <Story>
-  <Title>Basement</Title>
+  <Title>*Basement</Title>
   <Author>Ulvi</Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -186,6 +186,36 @@
                                   <Type>string</Type>
                                   <Value>I must get out!</Value>
                                 </Binding>
+                              </KnowIt>
+                            </Parameters>
+                          </CodeBlockReference>
+                        </CodeBlocks>
+                      </ScriptIt>
+                      <ScriptIt>
+                        <Name>Play &lt;Sound Object&gt;</Name>
+                        <Visible>true</Visible>
+                        <Enabled>true</Enabled>
+                        <Labels>
+                          <Label>NOW</Label>
+                        </Labels>
+                        <Children/>
+                        <CodeBlocks>
+                          <CodeBlockReference library="DefaultNWNLibrary">
+                            <Name>Play &lt;Sound Object&gt;</Name>
+                            <Visible>true</Visible>
+                            <Enabled>true</Enabled>
+                            <Labels/>
+                            <TargetId>161</TargetId>
+                            <Parameters>
+                              <KnowIt>
+                                <Name>Sound Object</Name>
+                                <Visible>true</Visible>
+                                <Enabled>true</Enabled>
+                                <Labels/>
+                                <Types>
+                                  <Type>sound</Type>
+                                </Types>
+                                <Binding flavour="resource">bgmusic.UTS</Binding>
                               </KnowIt>
                             </Parameters>
                           </CodeBlockReference>
