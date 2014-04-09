@@ -54,10 +54,13 @@ Files for Installation:
 		a) gideonde'marsh.bic
 
 	4) Move movies (.bik files) into 'C:\Games\NeverwinterNights\NWN\movies'
-		a) Intro.bik
-		b) Outro (Good).bik
-		c) Outro (Bad).bik
-		d) firestarter.bik
+		a) Intro Final.bik
+		b) Outro Good Final.bik
+		c) Outro Bad Final.bik
+		d) Firestarter Final.bik
+		e) Panorama_1 Final.bik
+		f) Panorama_2 Final.bik
+		g) Panorama_3 Final.bik
 
 Run the application:
 
