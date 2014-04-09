@@ -49,6 +49,8 @@ Files for Installation:
 		q) HotelSound4.hak
 		r) HedgeMazeSound.hak
 		s) teapartysound.hak
+		t) ascentmusic.hak
+		u) 
 	
 	3) Move .bic files into 'C:\Games\NeverwinterNights\NWN\localvault'
 		a) gideonde'marsh.bic
@@ -61,6 +63,7 @@ Files for Installation:
 		e) Panorama_1 Final.bik
 		f) Panorama_2 Final.bik
 		g) Panorama_3 Final.bik
+		h) GuiltBear.bik
 
 Run the application:
 
