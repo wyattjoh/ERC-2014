@@ -1,5 +1,5 @@
 <Story>
-  <Title>Descent 3</Title>
+  <Title>*Descent 3</Title>
   <Author></Author>
   <Version>2.7</Version>
   <Translator>Neverwinter Nights</Translator>
@@ -2567,7 +2567,7 @@
                                         </Types>
                                         <Binding flavour="constant">
                                           <Type>float</Type>
-                                          <Value>4.0</Value>
+                                          <Value>6.0</Value>
                                         </Binding>
                                       </KnowIt>
                                     </Parameters>
@@ -3243,7 +3243,7 @@
                                             </Types>
                                             <Binding flavour="constant">
                                               <Type>float</Type>
-                                              <Value>4.0</Value>
+                                              <Value>6.0</Value>
                                             </Binding>
                                           </KnowIt>
                                         </Parameters>
@@ -3876,7 +3876,7 @@
                                                 </Types>
                                                 <Binding flavour="constant">
                                                   <Type>float</Type>
-                                                  <Value>7.0</Value>
+                                                  <Value>6.0</Value>
                                                 </Binding>
                                               </KnowIt>
                                             </Parameters>
@@ -4945,7 +4945,7 @@
                                                             </Types>
                                                             <Binding flavour="constant">
                                                               <Type>string</Type>
-                                                              <Value>Ascent</Value>
+                                                              <Value>Basement</Value>
                                                             </Binding>
                                                           </KnowIt>
                                                         </Parameters>
